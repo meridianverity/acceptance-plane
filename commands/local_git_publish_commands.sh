@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Recommended defaults. Change only if the MVG GitHub organization handle differs.
-GITHUB_OWNER="${GITHUB_OWNER:-meridian-verity-group}"
+GITHUB_OWNER="${GITHUB_OWNER:-meridianverity}"
 GITHUB_REPO="${GITHUB_REPO:-acceptance-plane}"
 REMOTE_URL="git@github.com:${GITHUB_OWNER}/${GITHUB_REPO}.git"
 

@@ -3,7 +3,7 @@
 Recommended repository:
 
 ```text
-meridian-verity-group/acceptance-plane
+meridianverity/acceptance-plane
 ```
 
 ## Description

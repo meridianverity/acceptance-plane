@@ -4,7 +4,7 @@ set -euo pipefail
 # Optional helper. Many teams should create/configure the repository manually in GitHub UI.
 # Requires GitHub CLI authenticated with organization permissions.
 
-GITHUB_OWNER="${GITHUB_OWNER:-meridian-verity-group}"
+GITHUB_OWNER="${GITHUB_OWNER:-meridianverity}"
 GITHUB_REPO="${GITHUB_REPO:-acceptance-plane}"
 REPO="${GITHUB_OWNER}/${GITHUB_REPO}"
 

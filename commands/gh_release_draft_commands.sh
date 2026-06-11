@@ -4,7 +4,7 @@ set -euo pipefail
 # Requires GitHub CLI authenticated with permissions for the MVG repository.
 # Run after the repository is public, Zenodo integration is enabled, and release immutability is enabled.
 
-GITHUB_OWNER="${GITHUB_OWNER:-meridian-verity-group}"
+GITHUB_OWNER="${GITHUB_OWNER:-meridianverity}"
 GITHUB_REPO="${GITHUB_REPO:-acceptance-plane}"
 REPO="${GITHUB_OWNER}/${GITHUB_REPO}"
 

@@ -5,7 +5,7 @@
 Publish this package as the official MVG organization repository:
 
 ```text
-meridian-verity-group/acceptance-plane
+meridianverity/acceptance-plane
 ```
 
 GitHub should be used as the source/provenance layer, not as the primary citation layer. The canonical citation remains:

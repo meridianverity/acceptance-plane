@@ -17,7 +17,7 @@ Recommended citation:
 
 ## GitHub Repository
 
-https://github.com/meridian-verity-group/acceptance-plane
+https://github.com/meridianverity/acceptance-plane
 
 ## GitHub Release Provenance
 

@@ -9,13 +9,13 @@ acceptance-plane
 Organization:
 
 ```text
-meridian-verity-group
+meridianverity
 ```
 
 Full URL:
 
 ```text
-https://github.com/meridian-verity-group/acceptance-plane
+https://github.com/meridianverity/acceptance-plane
 ```
 
 Description:

@@ -6,7 +6,7 @@ Use GitHub as the public source/provenance repository for the Acceptance Plane t
 
 ## Recommended sequence
 
-1. Create `meridian-verity-group/acceptance-plane` as a private repository.
+1. Create `meridianverity/acceptance-plane` as a private repository.
 2. Push this package to `main` using a signed commit.
 3. Run `python scripts/verify_manifest.py` locally and confirm the GitHub Action passes.
 4. Complete counsel/IP redline.
