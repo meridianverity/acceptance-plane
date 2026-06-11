@@ -1,8 +1,9 @@
 # The Acceptance Plane™
+**Action acceptance before impact.**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20645907.svg)](https://doi.org/10.5281/zenodo.20645907)
 
-Public architecture thesis and reference workflow for the Acceptance Plane in agentic AI infrastructure.
+Public architecture thesis and reference workflow for the Acceptance Plane™ in agentic AI infrastructure.
 
 **Prepared by:** Meridian Verity Group  
 **Author:** Scott Lee  
@@ -20,7 +21,7 @@ Short form:
 
 ## Repository Status
 
-This release is a public architecture thesis. It is not a formal standard, product specification, legal opinion, compliance certification, patent claim chart, or implementation disclosure.
+This release is a public architecture thesis and provenance package. It is not a formal standard, product specification, legal opinion, compliance certification, patent claim chart, or implementation disclosure.
 
 ## Contents
 
@@ -55,12 +56,26 @@ https://github.com/meridianverity/acceptance-plane
 
 This repository presents a public architecture thesis for the Acceptance Plane™ in agentic AI infrastructure.
 
-The materials are intended for public discussion, citation, and provenance. They are not a formal standard, product specification, legal opinion, compliance certification, patent claim chart, implementation disclosure, endorsement, or deployment guarantee.
+The materials are intended for public discussion, citation, education, and provenance.
+
+They are not a formal standard, product specification, API specification, legal opinion, compliance certification, patent claim chart, implementation disclosure, endorsement, deployment guarantee, or complete security solution.
 
 ## License and Notices
 
-This package uses Creative Commons Attribution 4.0 International (CC BY 4.0) for the public architecture thesis, related documentation, and accompanying figures, subject to the NOTICE file.
+This package uses Creative Commons Attribution 4.0 International (CC BY 4.0) for the public architecture thesis, related documentation, and accompanying figures.
 
-The license does not grant patent rights, trademark rights, service mark rights, implementation rights, certification rights, compliance approvals, endorsements, confidential mechanisms, or partner-specific rights.
+See the NOTICE file for trademark, patent, and scope notices.
+
+The license applies only to copyrightable public materials included in this release.
+
+It does not grant patent rights, trademark rights, service mark rights, product implementation rights, certification rights, compliance approvals, endorsements, confidential mechanisms, partner-specific rights, or rights to use Meridian Verity Group marks as source identifiers.
 
 “Acceptance Plane™” and “The Acceptance Plane™” are used as Meridian Verity Group framework identifiers and source-identifying marks.
+
+## Short Public Description
+
+The Acceptance Plane™ describes the architectural function for deciding whether a specific autonomous AI action should be accepted by a protected system before impact.
+
+Access is not authority.
+Permission is not proof.
+Execution is not acceptance.
