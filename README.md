@@ -1,4 +1,4 @@
-# The Acceptance Plane
+# The Acceptance Plane™
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20645907.svg)](https://doi.org/10.5281/zenodo.20645907)
 
@@ -12,11 +12,11 @@ Public architecture thesis and reference workflow for the Acceptance Plane in ag
 
 ## Canonical Definition
 
-**The Acceptance Plane is an architectural function that determines whether a specific autonomous AI action should be accepted by a protected system before impact, based on current, scope-bound, verifier-ready evidence at the acceptance boundary.**
+**The Acceptance Plane™ is an architectural function that determines whether a specific autonomous AI action should be accepted by a protected system before impact, based on current, scope-bound, verifier-ready evidence at the acceptance boundary.**
 
 Short form:
 
-> **The Acceptance Plane decides whether an autonomous AI action becomes a real-world consequence.**
+> **The Acceptance Plane™ decides whether an autonomous AI action becomes a real-world consequence.**
 
 ## Repository Status
 
@@ -39,7 +39,7 @@ This release is a public architecture thesis. It is not a formal standard, produ
 
 ## Canonical Citation
 
-> Lee, Scott. Meridian Verity Group. (2026). The Acceptance Plane: The Missing Trust Layer for Agentic AI Infrastructure (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20645907
+> Lee, Scott. Meridian Verity Group. (2026). The Acceptance Plane™: The Missing Trust Layer for Agentic AI Infrastructure (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20645907
 
 ## Source and Provenance
 
@@ -48,17 +48,21 @@ The GitHub release package is intended as a source/provenance package for public
 Repository URL:
 
 ```text
-https://github.com/meridian-verity-group/acceptance-plane
+https://github.com/meridianverity/acceptance-plane
 ```
 
 ## Public Positioning
 
 Recommended wording:
 
-> Meridian Verity Group is publishing a public architecture thesis for the Acceptance Plane in agentic AI infrastructure.
+> Meridian Verity Group is publishing a public architecture thesis for the Acceptance Plane™ in agentic AI infrastructure.
 
 Avoid absolute or unsupported claims such as "first ever in the world," "formal standard," "patent-protected mechanism," or "compliance guarantee."
 
-## License
+## License and Notices
 
-This package uses Creative Commons Attribution 4.0 International (CC BY 4.0) for the public architecture text, diagrams, and metadata, subject to the NOTICE file. The license does not grant patent rights, trademark rights, implementation rights, confidential mechanisms, or partner-specific rights.
+This package uses Creative Commons Attribution 4.0 International (CC BY 4.0) for the public architecture thesis, related documentation, and accompanying figures, subject to the NOTICE file.
+
+The license does not grant patent rights, trademark rights, service mark rights, implementation rights, certification rights, compliance approvals, endorsements, confidential mechanisms, or partner-specific rights.
+
+“Acceptance Plane™” and “The Acceptance Plane™” are used as Meridian Verity Group framework identifiers and source-identifying marks.
