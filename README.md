@@ -51,13 +51,11 @@ Repository URL:
 https://github.com/meridianverity/acceptance-plane
 ```
 
-## Public Positioning
+## Scope Boundaries
 
-Recommended wording:
+This repository presents a public architecture thesis for the Acceptance Plane™ in agentic AI infrastructure.
 
-> Meridian Verity Group is publishing a public architecture thesis for the Acceptance Plane™ in agentic AI infrastructure.
-
-Avoid absolute or unsupported claims such as "first ever in the world," "formal standard," "patent-protected mechanism," or "compliance guarantee."
+The materials are intended for public discussion, citation, and provenance. They are not a formal standard, product specification, legal opinion, compliance certification, patent claim chart, implementation disclosure, endorsement, or deployment guarantee.
 
 ## License and Notices
 
