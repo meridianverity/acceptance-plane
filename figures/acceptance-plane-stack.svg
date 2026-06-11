@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="80" y="105" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#111">The Acceptance Plane</text>
+<text x="82" y="154" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="400" fill="#444">The missing trust layer for agentic AI infrastructure</text>
+<rect x="78" y="250" width="335" height="285" rx="24" fill="#e8f0fb" stroke="#2d2d2d" stroke-width="3"/>
+<text x="103" y="308" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#111">Compute Plane</text>
+<text x="103" y="362" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">Runs models, agents,</text>
+<text x="103" y="394" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">workloads, tools, and</text>
+<text x="103" y="426" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">execution environments.</text>
+<rect x="443" y="250" width="335" height="285" rx="24" fill="#edf7f4" stroke="#2d2d2d" stroke-width="3"/>
+<text x="468" y="308" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#111">Control Plane</text>
+<text x="468" y="362" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">Configures identity, policy,</text>
+<text x="468" y="394" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">orchestration, permissions,</text>
+<text x="468" y="426" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">and governance.</text>
+<rect x="808" y="250" width="335" height="285" rx="24" fill="#f9f4eb" stroke="#2d2d2d" stroke-width="3"/>
+<text x="833" y="308" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#111">Data Plane</text>
+<text x="833" y="362" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">Moves prompts, context,</text>
+<text x="833" y="394" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">memory, retrieval results,</text>
+<text x="833" y="426" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">tool outputs, and state.</text>
+<rect x="1173" y="250" width="335" height="285" rx="24" fill="#f6eefb" stroke="#2d2d2d" stroke-width="3"/>
+<text x="1198" y="308" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#111">Acceptance Plane</text>
+<text x="1198" y="362" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">Determines whether</text>
+<text x="1198" y="394" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">autonomous action should</text>
+<text x="1198" y="426" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111">be accepted before impact.</text>
+<rect x="155" y="615" width="1290" height="95" rx="22" fill="#fff" stroke="#111" stroke-width="2"/>
+<text x="205" y="667" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#111">Acceptance boundary: where AI intention may become system consequence</text>
+<text x="180" y="804" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#222">The Acceptance Plane determines whether a specific autonomous AI action should be accepted before impact,</text>
+<text x="268" y="840" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#222">based on current, scope-bound, verifier-ready evidence at the acceptance boundary.</text>
+<text x="326" y="928" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#111">The Acceptance Plane decides whether an autonomous AI action becomes a real-world consequence.</text>
+<text x="1220" y="966" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#555">Canonical DOI: 10.5281/zenodo.20645907</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="70" y="98" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#111">The Acceptance Plane in One Workflow</text>
+<text x="72" y="146" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#444">A coding-agent production deployment example</text>
+<rect x="80" y="190" width="610" height="78" rx="18" fill="#ffffff" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="240" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">1. Agent proposes deployment</text>
+<line x1="720" y1="229" x2="765" y2="229" stroke="#111" stroke-width="3"/>
+<polygon points="765,229 747,218 747,240" fill="#111"/>
+<rect x="80" y="296" width="610" height="78" rx="18" fill="#ffffff" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="346" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">2. Identity validated</text>
+<line x1="720" y1="335" x2="765" y2="335" stroke="#111" stroke-width="3"/>
+<polygon points="765,335 747,324 747,346" fill="#111"/>
+<rect x="80" y="402" width="610" height="78" rx="18" fill="#ffffff" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="452" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">3. Runtime attested</text>
+<line x1="720" y1="441" x2="765" y2="441" stroke="#111" stroke-width="3"/>
+<polygon points="765,441 747,430 747,452" fill="#111"/>
+<rect x="80" y="508" width="610" height="78" rx="18" fill="#ffffff" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="558" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">4. Policy checked</text>
+<line x1="720" y1="547" x2="765" y2="547" stroke="#111" stroke-width="3"/>
+<polygon points="765,547 747,536 747,558" fill="#111"/>
+<rect x="80" y="614" width="610" height="78" rx="18" fill="#ffffff" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="664" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111">5. Target/scope/freshness/revocation verified</text>
+<line x1="720" y1="653" x2="765" y2="653" stroke="#111" stroke-width="3"/>
+<polygon points="765,653 747,642 747,664" fill="#111"/>
+<rect x="80" y="720" width="610" height="78" rx="18" fill="#f6eefb" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="770" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">6. Acceptance decision</text>
+<line x1="720" y1="759" x2="765" y2="759" stroke="#111" stroke-width="3"/>
+<polygon points="765,759 747,748 747,770" fill="#111"/>
+<rect x="80" y="826" width="610" height="78" rx="18" fill="#f6eefb" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="876" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">7. ACCEPT / HOLD / REFUSE</text>
+<line x1="720" y1="865" x2="765" y2="865" stroke="#111" stroke-width="3"/>
+<polygon points="765,865 747,854 747,876" fill="#111"/>
+<rect x="80" y="932" width="610" height="78" rx="18" fill="#f6eefb" stroke="#1e1e1e" stroke-width="3"/>
+<text x="105" y="982" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#111">8. Receipt produced</text>
+<line x1="720" y1="971" x2="765" y2="971" stroke="#111" stroke-width="3"/>
+<polygon points="765,971 747,960 747,982" fill="#111"/>
+<rect x="760" y="190" width="750" height="700" rx="24" fill="#e8f0fb" stroke="#1e1e1e" stroke-width="3"/>
+<text x="800" y="250" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#111">Core production question</text>
+<text x="800" y="320" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111">Should this exact autonomous action</text>
+<text x="800" y="364" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111">be accepted by a protected system</text>
+<text x="800" y="408" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111">right now?</text>
+<line x1="800" y1="470" x2="1470" y2="470" stroke="#777" stroke-width="2"/>
+<text x="800" y="523" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#111">A deployment plan is not a deployment.</text>
+<text x="800" y="583" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#111">A valid credential is not valid authority.</text>
+<text x="800" y="643" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#111">An attested runtime is not accepted action.</text>
+<text x="800" y="703" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#111">Production action should not happen without evidence.</text>
+<text x="800" y="775" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111">ACCEPT when proof is sufficient.</text>
+<text x="800" y="809" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111">HOLD when proof is incomplete.</text>
+<text x="800" y="843" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#111">REFUSE when proof fails.</text>
+<text x="1220" y="1065" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#555">Canonical DOI: 10.5281/zenodo.20645907</text>
+</svg>
