@@ -79,3 +79,16 @@ The Acceptance Plane™ describes the architectural function for deciding whethe
 Access is not authority.
 Permission is not proof.
 Execution is not acceptance.
+
+## Canonical architecture thesis
+
+This public readiness kit is a developer-facing educational companion to the canonical Acceptance Plane™ architecture thesis.
+
+Canonical repository: [meridianverity/acceptance-plane](https://github.com/meridianverity/acceptance-plane)
+Canonical DOI: [10.5281/zenodo.20645907](https://doi.org/10.5281/zenodo.20645907)
+
+The canonical thesis defines the Acceptance Plane™ as the architectural function for deciding whether a specific autonomous AI action should be accepted by a protected system before impact.
+
+This repository does not replace or restate that thesis. It provides a 5-minute scenario-card linter and public readiness materials for discussing action acceptance before impact.
+
+Not a product implementation. Not a standard. No certification right. No patent license.
