@@ -8,7 +8,7 @@ Public architecture thesis and hardened public-evaluation proof overlay for the 
 **Prepared by:** Meridian Verity Group  
 **Author:** Scott Lee  
 **Canonical thesis version:** v1.0.0  
-**Public-eval overlay:** v1.0.1-public-eval  
+**Public-eval overlay:** v1.0.2-public-eval  
 **Release date:** 2026-06-11  
 **Canonical DOI:** https://doi.org/10.5281/zenodo.20645907
 
@@ -26,7 +26,7 @@ This repository contains a public architecture thesis, provenance package, and b
 
 ## What changed in the hardened overlay
 
-The original v1.0.0 package was thesis/provenance oriented. The v1.0.1 public-eval overlay adds runnable verification:
+The original v1.0.0 package was thesis/provenance oriented. The v1.0.2 public-eval overlay adds runnable verification and release-facing pointer locks:
 
 ```bash
 python scripts/verify_manifest.py
@@ -43,6 +43,14 @@ Expected headline result:
 Acceptance Plane public eval: 64 / 64 PASS
 independent recomputation: 13 / 13 PASS
 release gate: PASS
+```
+
+Release-facing metadata is locked in:
+
+```text
+metadata/github_release_body_v1.0.2-public-eval.md
+metadata/public_release_copy_v1.0.2.md
+metadata/release_pointer_lock_v1.0.2.md
 ```
 
 ## Fast path
@@ -62,9 +70,10 @@ python -m pytest -q
 - `docs/acceptance-plane-in-one-workflow.md` - production deployment workflow explainer.
 - `docs/ACCEPTANCE_BOUNDARY_SPEC_v1.md` - runnable public-eval decision profile.
 - `docs/PROOF_CHAIN.md` - proof-chain verification guide.
-- `docs/HARDENING_NOTES_v1_0_1.md` - hardening and integrity notes.
+- `docs/HARDENING_NOTES_v1_0_2.md` - hardening and integrity notes.
 - `docs/RELEASE_ARTIFACT_VERIFICATION.md` - source/archive verification guide.
-- `docs/PERMIT_RECEIPT_HALTSEAL_SUPERSET_STRATEGY.md` - positioning against concrete receipt/gateway mechanisms.
+- `docs/PERMIT_RECEIPT_HALTSEAL_SUPERSET_STRATEGY.md` - public-safe relationship note for concrete receipt/gateway mechanisms.
+- `docs/STRATEGIC_DISCLOSURE_BOUNDARY.md` - public/private disclosure boundary for release hygiene.
 - `tools/` - public-eval runner, proof receipt verifier, release verifier, and independent recomputation.
 - `acceptance_plane_eval/` - deterministic public-eval reference evaluator.
 - `vectors/` - 64 ACCEPT/HOLD/REFUSE scenario vectors.
@@ -90,7 +99,7 @@ The linter checks basic card completeness, verifies policy digest binding, evalu
 
 > Lee, Scott. Meridian Verity Group. (2026). The Acceptance Plane™: The Missing Trust Layer for Agentic AI Infrastructure (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20645907
 
-The v1.0.1 overlay is source/provenance and public-evaluation material for the same canonical thesis. It does not replace the canonical DOI.
+The v1.0.2 overlay is source/provenance and public-evaluation material for the same canonical thesis. It does not replace the canonical DOI.
 
 ## Source and Provenance
 

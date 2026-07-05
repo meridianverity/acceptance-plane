@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.2-public-eval - 2026-07-05
+
+- Restored dotfiles missing from the submitted ZIP so manifest verification passes from a fresh archive.
+- Added exact release title, release description, GitHub release body, and pointer lock.
+- Updated public release commands from v1.0.0 historical flow to v1.0.2-public-eval.
+- Added strategic disclosure boundary documentation.
+- Updated proof receipt, SBOM, release attestation, QA report, and manifest metadata for v1.0.2-public-eval.
+
+
 ## v1.0.1-public-eval - 2026-06-11
 
 - Added hardened public-evaluation proof overlay.

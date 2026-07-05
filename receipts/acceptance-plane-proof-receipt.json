@@ -19,20 +19,20 @@
     "public_eval_key": {
       "production_use": false,
       "profile": "AP-ED25519-PUBLIC-EVAL-v1",
-      "public_key_base64": "RZsgJ3DGuc6drgClX7qulm3aZLaial59f8r/HfWG6VI=",
-      "seed_sha256": "c0389ae06acee0fc61feaf8085d4dff81b1bb608559af976811daac350ff8627",
+      "public_key_base64": "1+eGWRZc3GWgPAgvn74hVpfp0YdKxrfuZa0+X9MmSxA=",
+      "seed_sha256": "05be8c0eb5629ec75675b9b78af0887dff28c3aa1717b5805697b1293a675aa4",
       "warning": "Deterministic public-eval key only; not a production trust root."
     },
     "signature_profile": "AP-ED25519-PUBLIC-EVAL-v1",
     "transparency": {
       "root_hash": "e4c446dca73557bcf548c8b2771b8611c5303885a45a9e84f7696b2c65e7c31c",
-      "tree_head_signature_base64": "Qrheb1TT9wcQtBnY6B/3Y5hlA+QNJBdEF34xbXMDv1mwKfWw8PkgS2zPNMSNKwHgSB3V67ZE4RVwoSEcFgJzCw==",
+      "tree_head_signature_base64": "eTOlB9bQeZtidwNmVZ/IL89RxMUwM27VxaEa0a9AK8gcogC6yj4xzEeyCOnFHqJYiGbslH4UoQ9OSl90bboCDQ==",
       "tree_size": 64
     },
-    "version": "1.0.1-hardened-public-eval"
+    "version": "1.0.2-public-eval"
   },
-  "receipt_core_digest": "68f79b258558aba078a3e2f402f0dae272fbeaa40378e33dff7ecfd92a945328",
-  "receipt_core_signature_base64": "1a5GFlt21CUydJsmTXi4Ub1wICjeDaMP8asgTPDSNgGUDOkZyHRPycZPoO/Ybnjv2X4mi68zMtRwWAhx+H8RCw==",
+  "receipt_core_digest": "bc54d332c842816e2c2d33fff63a2f00882ad1316c3cb3ed6570ba0b52d5b150",
+  "receipt_core_signature_base64": "2cNwNEaoWuOgrjPWYJpEH9i76B5itOxs2d82S7nPVlt9oXWJmhraJuKR9yQaUCLZ8JH9uQmTO/wNk35rSemPCw==",
   "verification_notes": [
     "Use tools/verify_proof_receipt.py for receipt self-check and optional archive binding.",
     "The Ed25519 key is deterministic and public-eval only; it is not a production trust root."

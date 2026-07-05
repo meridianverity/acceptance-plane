@@ -20,7 +20,7 @@ else:
     _IMPORT_ERROR = None
 
 PROFILE = "AP-ED25519-PUBLIC-EVAL-v1"
-SEED_CONTEXT = b"Acceptance Plane public evaluation Ed25519 seed v1.0.1"
+SEED_CONTEXT = b"Acceptance Plane public evaluation Ed25519 seed v1.0.2"
 
 
 class CryptoUnavailable(RuntimeError):

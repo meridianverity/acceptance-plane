@@ -18,6 +18,11 @@ FORBIDDEN = [
     "$10m",
     "10m+",
     "99.9",
+    "99.99",
+    "nobel candidate",
+    "big tech",
+    "history-making",
+    "world-class guaranteed",
 ]
 ALLOWLIST = {
     "docs/public-claims-style-guide.md",

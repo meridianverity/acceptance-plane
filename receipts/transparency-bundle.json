@@ -521,8 +521,8 @@
     "public_eval_key": {
       "production_use": false,
       "profile": "AP-ED25519-PUBLIC-EVAL-v1",
-      "public_key_base64": "RZsgJ3DGuc6drgClX7qulm3aZLaial59f8r/HfWG6VI=",
-      "seed_sha256": "c0389ae06acee0fc61feaf8085d4dff81b1bb608559af976811daac350ff8627",
+      "public_key_base64": "1+eGWRZc3GWgPAgvn74hVpfp0YdKxrfuZa0+X9MmSxA=",
+      "seed_sha256": "05be8c0eb5629ec75675b9b78af0887dff28c3aa1717b5805697b1293a675aa4",
       "warning": "Deterministic public-eval key only; not a production trust root."
     },
     "results_digest": "a0bd7150f9bd20546576351cd3a0fe0abcb0f6191608e386c17e442f30222e3c",
@@ -530,5 +530,5 @@
     "signature_profile": "AP-ED25519-PUBLIC-EVAL-v1",
     "tree_size": 64
   },
-  "tree_head_signature_base64": "Qrheb1TT9wcQtBnY6B/3Y5hlA+QNJBdEF34xbXMDv1mwKfWw8PkgS2zPNMSNKwHgSB3V67ZE4RVwoSEcFgJzCw=="
+  "tree_head_signature_base64": "eTOlB9bQeZtidwNmVZ/IL89RxMUwM27VxaEa0a9AK8gcogC6yj4xzEeyCOnFHqJYiGbslH4UoQ9OSl90bboCDQ=="
 }

@@ -1,36 +1,30 @@
-# Superset Strategy: Acceptance Plane, Permit Receipt, and HaltSeal
+# Public Relationship Note: Acceptance Plane, Permit Receipt, and HaltSeal
 
-This note explains how the Acceptance Plane can sit above concrete receipt/gateway proof mechanisms without overclaiming.
+This note is intentionally public-safe. It explains conceptual layering without disclosing private licensing strategy, partner mappings, production deployment details, claim charts, evidence-of-use material, or confidential implementation mechanisms.
 
-## Positioning
+## Public positioning
 
-- Acceptance Plane: architectural function that decides whether an autonomous action becomes a protected consequence before impact.
-- Permit Receipt: a possible action-level receipt and authorization proof mechanism.
-- HaltSeal: a possible gateway proof-pack and fail-closed verification mechanism.
+- Acceptance Plane: the architectural function that decides whether an autonomous action becomes accepted impact at a protected boundary.
+- Permit Receipt: an example of an action-level authorization and receipt proof pattern.
+- HaltSeal: an example of a gateway-level fail-closed proof and verification pattern.
 
-The hardened Acceptance Plane package is stronger as a category artifact when it does not compete with those mechanisms. It frames them as examples of how an acceptance boundary can be made verifiable.
+The Acceptance Plane does not depend on any one concrete receipt or gateway mechanism. It provides the category-level boundary: action acceptance before impact. Concrete proof systems can instantiate that boundary in different environments.
 
-## What this overlay adds
+## What remains deliberately out of scope
 
-Compared with a thesis-only package, the overlay adds:
+This public package does not include:
 
-1. runnable ACCEPT/HOLD/REFUSE scenario vectors;
-2. deterministic receipt digests;
-3. signed public-eval proof receipt;
-4. signed Merkle transparency bundle;
-5. independent recomputation script;
-6. shape-only Envoy, OPA, and Kubernetes adapter sketches;
-7. release archive verification.
+- private licensing analysis;
+- patent claim charts;
+- evidence-of-use mapping;
+- customer or partner architectures;
+- production enforcement pipelines;
+- live payment, wallet, PSP, or regulated rails;
+- production keys or production trust roots;
+- confidential commercial terms.
 
-## Next step to exceed a single proof pack
+## Public-eval contribution
 
-The highest-leverage next step is a multi-implementation interop matrix:
+The public-eval overlay shows that an acceptance-boundary artifact can be reviewed by deterministic vectors, receipt digests, a signed proof receipt, a transparency bundle, independent recomputation, and release archive verification.
 
-```text
-Python evaluator -> canonical action digest -> receipt digest
-Go verifier      -> same canonical action digest -> same receipt digest
-TypeScript demo  -> same canonical action digest -> same receipt digest
-OPA adapter      -> same ACCEPT/HOLD/REFUSE boundary outcome
-```
-
-That would move the project from a strong public-eval artifact to an interop-ready reference profile.
+That is enough for public technical review without revealing private commercialization or deployment strategy.

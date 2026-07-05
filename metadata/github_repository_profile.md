@@ -45,10 +45,10 @@ devsecops
 - Visibility before counsel/IP review: private.
 - Visibility at publication: public.
 - Default branch: `main`.
-- Issues: off for v1.0.0 launch, unless MVG wants public discussion.
+- Issues: off for v1.0.2-public-eval release, unless MVG wants public discussion.
 - Wiki: off.
-- Discussions: off for v1.0.0 launch, unless MVG wants community Q&A.
-- Releases: enable release immutability before publishing v1.0.0.
+- Discussions: off for v1.0.2-public-eval release, unless MVG wants community Q&A.
+- Releases: enable release immutability before publishing v1.0.2-public-eval.
 - Branch protection: require signed commits for future changes if available in the organization plan.
 - Secret scanning / push protection: enable if available.
 

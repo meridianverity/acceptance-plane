@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "acceptance-plane-public-eval"
-version = "1.0.1"
-description = "Public-evaluation proof overlay for the Acceptance Plane architecture thesis."
+version = "1.0.2"
+description = "Fresh-archive-verifiable public-evaluation proof overlay for the Acceptance Plane architecture thesis."
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "CC-BY-4.0"}

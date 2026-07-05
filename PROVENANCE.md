@@ -2,7 +2,7 @@
 
 Package: MVG Acceptance Plane Public Canonical Package  
 Canonical thesis version: v1.0.0  
-Public-eval overlay: v1.0.1-public-eval  
+Public-eval overlay: v1.0.2-public-eval  
 Release date: 2026-06-11  
 Organization: Meridian Verity Group  
 Author: Scott Lee  
@@ -18,7 +18,7 @@ Recommended citation:
 
 ## Public-Eval Overlay
 
-The v1.0.1-public-eval overlay adds bounded, runnable proof artifacts:
+The v1.0.2-public-eval overlay adds bounded, runnable proof artifacts and release-facing pointer locks:
 
 - `vectors/public_eval_vectors.jsonl`
 - `receipts/public_eval_results.json`
@@ -26,6 +26,8 @@ The v1.0.1-public-eval overlay adds bounded, runnable proof artifacts:
 - `receipts/acceptance-plane-proof-receipt.json`
 - `tools/independent_recompute.py`
 - `tools/verify_release_artifact.py`
+- `metadata/release_pointer_lock_v1.0.2.md`
+- `metadata/github_release_body_v1.0.2-public-eval.md`
 
 These files support review and provenance. They do not replace the canonical DOI or create a product specification.
 

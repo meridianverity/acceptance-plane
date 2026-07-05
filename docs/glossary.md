@@ -1,6 +1,6 @@
 # Glossary
 
-This glossary supports the Acceptance Plane public architecture thesis and v1.0.1-public-eval overlay.
+This glossary supports the Acceptance Plane public architecture thesis and v1.0.2-public-eval overlay.
 
 ## Acceptance Plane
 

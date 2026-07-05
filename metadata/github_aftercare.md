@@ -1,15 +1,16 @@
-# GitHub Aftercare
+# GitHub Aftercare — v1.0.2-public-eval
 
-After v1.0.0 is public:
+After `v1.0.2-public-eval` is public:
 
 1. Confirm the GitHub release page shows the correct tag, commit, assets, and immutable status.
-2. Confirm the release asset list matches `metadata/github_release_body_v1.0.0.md`.
-3. Confirm `scripts/verify_manifest.py` passes from a fresh clone.
-4. Confirm Zenodo has archived the GitHub release and issued a GitHub release archive DOI.
-5. Record the GitHub release URL and GitHub-Zenodo archive DOI in MVG's internal launch notes.
-6. Do not rewrite v1.0.0 files just to add the GitHub archive DOI. Preserve v1.0.0 as the historical release. Add cross-links on the website, LinkedIn, or a future v1.0.1/v1.1.0 if needed.
-7. Pin the repository on the MVG GitHub organization profile if GitHub organization profile curation is being used.
+2. Confirm the release title exactly matches `metadata/release_pointer_lock_v1.0.2.md`.
+3. Confirm the release asset list includes the ZIP and SHA256 sidecar if those assets are published.
+4. Download the release ZIP and sidecar from the public release page and run archive-level verification.
+5. Confirm `make qa-full` passes from a fresh clone.
+6. Confirm Zenodo has archived the GitHub release if GitHub-Zenodo integration is enabled.
+7. Record the GitHub release URL, release archive SHA256, and any GitHub-Zenodo archive DOI in MVG internal launch notes.
+8. Do not rewrite a published immutable release. Publish a new version for changes.
 
 Recommended public phrasing:
 
-> The Zenodo technical note is the canonical citation record. The GitHub release is the source/provenance package for the same public architecture thesis.
+> The Zenodo technical note is the canonical thesis citation. The GitHub release is the runnable source/provenance and public-evaluation proof package.

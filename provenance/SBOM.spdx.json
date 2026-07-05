@@ -1,6 +1,5 @@
 {
   "SPDXID": "SPDXRef-DOCUMENT",
-  "spdxVersion": "SPDX-2.3",
   "creationInfo": {
     "created": "2026-06-11T00:00:00Z",
     "creators": [
@@ -8,25 +7,26 @@
       "Tool: acceptance-plane-public-eval-overlay"
     ]
   },
+  "documentNamespace": "https://example.invalid/acceptance-plane/spdx/v1.0.2-public-eval",
   "name": "acceptance-plane-public-eval",
-  "documentNamespace": "https://example.invalid/acceptance-plane/spdx/v1.0.1-public-eval",
   "packages": [
     {
       "SPDXID": "SPDXRef-Package-AcceptancePlanePublicEval",
-      "name": "acceptance-plane-public-eval",
-      "versionInfo": "1.0.1-public-eval",
+      "copyrightText": "Copyright (c) 2026 Meridian Verity Group",
       "downloadLocation": "NOASSERTION",
       "filesAnalyzed": false,
       "licenseConcluded": "CC-BY-4.0",
       "licenseDeclared": "CC-BY-4.0",
-      "copyrightText": "Copyright (c) 2026 Meridian Verity Group"
+      "name": "acceptance-plane-public-eval",
+      "versionInfo": "1.0.2-public-eval"
     }
   ],
   "relationships": [
     {
-      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-Package-AcceptancePlanePublicEval",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-Package-AcceptancePlanePublicEval"
+      "spdxElementId": "SPDXRef-DOCUMENT"
     }
-  ]
+  ],
+  "spdxVersion": "SPDX-2.3"
 }

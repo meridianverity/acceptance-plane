@@ -33,3 +33,7 @@ release gate: PASS
 ## Scope
 
 Public-evaluation and provenance overlay only. Not a formal standard, product implementation, legal opinion, compliance certification, patent claim chart, or patent license.
+
+## Superseded for public GitHub release polish
+
+For the final public source/provenance release flow, use `metadata/github_release_body_v1.0.2-public-eval.md` and tag `v1.0.2-public-eval`.

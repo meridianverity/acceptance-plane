@@ -27,7 +27,7 @@ def main() -> int:
     receipt_core = {
         "profile": "AP-PROOF-RECEIPT-v1",
         "package": "acceptance-plane",
-        "version": "1.0.1-hardened-public-eval",
+        "version": "1.0.2-public-eval",
         "canonical_doi": "10.5281/zenodo.20645907",
         "public_eval": {
             "vector_count": results["vector_count"],
