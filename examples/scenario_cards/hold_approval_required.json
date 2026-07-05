@@ -1,0 +1,55 @@
+{
+  "action": {
+    "actor": "agent:deploy-bot",
+    "operation": "deploy",
+    "parameters": {
+      "artifact_digest": "sha256:artifact-orders-api-20260611",
+      "change_ticket": "CHG-2026-0611-001"
+    },
+    "requested_at": "2026-06-11T12:00:00Z",
+    "risk": "medium",
+    "service": "orders-api",
+    "target": "prod/orders-api"
+  },
+  "authority": {
+    "delegation_id": "deleg-20260611-prod-orders",
+    "expires_at": "2026-06-11T12:10:00Z",
+    "max_risk": "medium",
+    "revoked": false,
+    "scopes": [
+      "deploy:orders-api",
+      "rollback:orders-api"
+    ],
+    "subject": "agent:deploy-bot"
+  },
+  "evidence": {
+    "acceptance_boundary": "gateway:prod-deploy",
+    "approval_present": false,
+    "approval_required": true,
+    "attestation_measurement": "sha256:runtime-accepted-001",
+    "freshness_window_seconds": 300,
+    "identity_valid": true,
+    "nonce": "nonce-APV-011-HOLD-APPROVAL-REQUIRED",
+    "observed_at": "2026-06-11T11:59:30Z",
+    "policy_digest": "9b7fe40127753ee9233ff8f503c4612646edcd696e4293e6a70a6043abcc12f9",
+    "runtime_attested": true,
+    "target_binding": "prod/orders-api",
+    "transparency_proof_present": true,
+    "transparency_required": true
+  },
+  "policy": {
+    "decision_profile": "accept-hold-refuse-v1",
+    "policy_id": "ap-policy-public-eval",
+    "require_nonce": true,
+    "require_policy_digest_binding": true,
+    "require_target_binding": true,
+    "trusted_measurements": [
+      "sha256:runtime-accepted-001",
+      "sha256:runtime-accepted-002"
+    ],
+    "version": "2026-06-11.v1"
+  },
+  "scenario_id": "APV-011-HOLD-APPROVAL-REQUIRED",
+  "schema": "AP-SCENARIO-CARD-v1",
+  "title": "step-up approval missing"
+}

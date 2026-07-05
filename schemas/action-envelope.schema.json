@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/acceptance-plane/action-envelope.schema.json",
+  "title": "Acceptance Plane Action Envelope",
+  "type": "object",
+  "required": ["actor", "operation", "service", "target", "risk", "requested_at"],
+  "properties": {
+    "actor": {"type": "string"},
+    "operation": {"type": "string"},
+    "service": {"type": "string"},
+    "target": {"type": "string"},
+    "risk": {"enum": ["low", "medium", "high", "critical"]},
+    "requested_at": {"type": "string", "format": "date-time"},
+    "parameters": {"type": "object"}
+  },
+  "additionalProperties": true
+}

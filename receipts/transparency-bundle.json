@@ -1,0 +1,534 @@
+{
+  "leaves": [
+    {
+      "index": 0,
+      "leaf_hash": "6d154ce54c347e6c4f8417b2fb035ad1ec05e1873d28b982fed01455ff3046a7",
+      "payload_digest": "81f574a5b25d1ed684a0950303a8356176368de8c9b86e8fe5df1f7a696d013f",
+      "vector_id": "APV-000-ACCEPT-BASELINE"
+    },
+    {
+      "index": 1,
+      "leaf_hash": "f5b9a3ac78469e28c5cbbcaf7f9065d8f21d328c816cca58e9f30e65da1fa19f",
+      "payload_digest": "549cbe707e29a5eda987c1376bc3a4172c60f6ae5b4a18988565bd6e432d98c4",
+      "vector_id": "APV-001-REFUSE-SUBJECT-MISMATCH"
+    },
+    {
+      "index": 2,
+      "leaf_hash": "32e809cf265486df71162f1e10a4ff69edc74f2b4fd93bfe19aa1d3c1782cb1e",
+      "payload_digest": "e2b6e1922775c331e10674cecb2e3913feff8a4441ad7dd1e2ff5cbfcef043cc",
+      "vector_id": "APV-002-REFUSE-IDENTITY-INVALID"
+    },
+    {
+      "index": 3,
+      "leaf_hash": "c0ac8aa582568499d33d8981aab153a7a9700b3e9b3756735b3b5c8e59a86253",
+      "payload_digest": "d17184fc42d7c9814b57657a1d7e58d85eed17d0fcbea277965638ad13e1b9f3",
+      "vector_id": "APV-003-REFUSE-AUTHORITY-EXPIRED"
+    },
+    {
+      "index": 4,
+      "leaf_hash": "4f051358d4e6e98cb7f4cede0ea61743bb5e9cecb6a77d4824c5be89c116e202",
+      "payload_digest": "ea6caa81df13a29a06b0cf2685e6f3cf61168625bfb0ea40a8562ac0c4948277",
+      "vector_id": "APV-004-REFUSE-AUTHORITY-REVOKED"
+    },
+    {
+      "index": 5,
+      "leaf_hash": "8abef49b6c237642aa74b550130986a5b2b6c558f55223cb7b14f44d695081f0",
+      "payload_digest": "592bdaeb29a7ff8b0e7f153a1382fdca855f49446a47d01232369771bc154a0b",
+      "vector_id": "APV-005-REFUSE-SCOPE-MISMATCH"
+    },
+    {
+      "index": 6,
+      "leaf_hash": "5d0bd5bd3acfd988e6a26d83498c3ab55357bdb338fd72dcc809c9a9f2b7713a",
+      "payload_digest": "82f3cce5069940196b372d2e4d8d81401f7481f9a7b069a13bb5cbfaf9374f1f",
+      "vector_id": "APV-006-REFUSE-TARGET-MISMATCH"
+    },
+    {
+      "index": 7,
+      "leaf_hash": "6d64c1792b7eb41614e31a4d317ba3d1505e8a1d9e34de1de468d3bd8564774c",
+      "payload_digest": "08d1cf9858d70c7f0aa86c5672c7fc1b1809d0538a942e615c3f81e4fcca05da",
+      "vector_id": "APV-007-HOLD-ATTESTATION-MISSING"
+    },
+    {
+      "index": 8,
+      "leaf_hash": "427d0d2c19c2e826f67dee31a451054860fcd69025031f45dc1a69ad80af3ed1",
+      "payload_digest": "44eab20fbb0b1dde6c1e33824ce5c2d6d6c37b0f251dbe8950df23507070e7a8",
+      "vector_id": "APV-008-REFUSE-ATTESTATION-UNTRUSTED"
+    },
+    {
+      "index": 9,
+      "leaf_hash": "8c584d53a7ddc0e6c9c87bedfbb32ba61f2607f976698753a9aa7f1ef0c1694a",
+      "payload_digest": "2205ae0fba446edf8997027eec6545cc5eb491b42343a4b0e9054b3db60984f8",
+      "vector_id": "APV-009-REFUSE-POLICY-DIGEST-MISMATCH"
+    },
+    {
+      "index": 10,
+      "leaf_hash": "d8602fe71decf2d44090423d21cf93c8e2ee0229e70389f4388275a52e60291d",
+      "payload_digest": "df6060ab8e3336973f695bb10d4e538630dbc3d1105779c9f573776be59da8eb",
+      "vector_id": "APV-010-HOLD-EVIDENCE-STALE"
+    },
+    {
+      "index": 11,
+      "leaf_hash": "a89c1a970b7132b9c607415df7dd352e703b7941467babcd87d2b40b4352599a",
+      "payload_digest": "235f90ef38409463e64d8dff576f711998b78c03c0effc7f17998f705daffc32",
+      "vector_id": "APV-011-HOLD-APPROVAL-REQUIRED"
+    },
+    {
+      "index": 12,
+      "leaf_hash": "348696e97ee5ce86fc7945deba4fbd46c78e635eb49b7edd919246973a2946fe",
+      "payload_digest": "67e0ffdf1c561540ed8b9061ae801fc46e070d7f709ca24f6aa0b6f7902bea1e",
+      "vector_id": "APV-012-HOLD-RISK-EXCEEDS-AUTHORITY"
+    },
+    {
+      "index": 13,
+      "leaf_hash": "4bc73e004e6ed30c36e379e7d5dbea11a9211627c461ef3fe8867cf05e9c0659",
+      "payload_digest": "c730451f61918e9b72435b930dac4f50b1857654a780bbce1b3c4c916e2b8983",
+      "vector_id": "APV-013-HOLD-TRANSPARENCY-MISSING"
+    },
+    {
+      "index": 14,
+      "leaf_hash": "a0c198b65c3872325e8691bab6063591e889a324f6a91a01894c539fedac171d",
+      "payload_digest": "0785265ded518a289f93c715a787c65154803d1f438a483a21452e6f3e028641",
+      "vector_id": "APV-014-ACCEPT-WILDCARD-SCOPE"
+    },
+    {
+      "index": 15,
+      "leaf_hash": "0060f94212f6095ea8ceb0721fe68858133e22aeae4a29e94c3673710608dc4c",
+      "payload_digest": "e831df01531f5b6f662caf25fff0de8544194fe248ec34a2e7e9a02f14a2213d",
+      "vector_id": "APV-015-ACCEPT-APPROVAL-PRESENT"
+    },
+    {
+      "index": 16,
+      "leaf_hash": "e3806ff45aa3291c09dcacac6005b2556cdfbd8cdc24b416e3859202f22f34d6",
+      "payload_digest": "656de0d9f9f5e0d3190ac2144a3682efd4a31f9c8578412faf9d1d152142ed20",
+      "vector_id": "APV-016-REFUSE-REPLAY-DETECTED"
+    },
+    {
+      "index": 17,
+      "leaf_hash": "c11a3c25861a17c4fbec87a9ad9b39a52dbf3de110ae0cc8bf94a0336cf67893",
+      "payload_digest": "7d40555e3000ee7f2babdf16664f023ac9c8c7f3b48a43fa30d41b262cef20ea",
+      "vector_id": "APV-017-MATRIX-05"
+    },
+    {
+      "index": 18,
+      "leaf_hash": "c9b3593ab9ae95894502abd06b0a14818e3261b9071ce3ef03bc14a7c5f9c2ef",
+      "payload_digest": "13958eb1a1466442eda29f79963a238f9b5ba26ee38a8d9b393023b5aed043c2",
+      "vector_id": "APV-018-MATRIX-06"
+    },
+    {
+      "index": 19,
+      "leaf_hash": "3666ee98d9161f81a44780fb93c3db80a1c100a4b5e1c6f6b2d00ec36538628f",
+      "payload_digest": "70aa69db277f55745ce1631978ad346bea68544f7c7096e04b1c298205168018",
+      "vector_id": "APV-019-MATRIX-07"
+    },
+    {
+      "index": 20,
+      "leaf_hash": "5811bc8fb407c999a2c108cc7655f7a4809ebf1ae21b8863c3998f207570a551",
+      "payload_digest": "0fe30290db386cbf2eea518cd73b940bcd20723c7ffcf41fa01b44cc2b507c51",
+      "vector_id": "APV-020-MATRIX-08"
+    },
+    {
+      "index": 21,
+      "leaf_hash": "0c2831fb414903a0d7d6c9801d27800a805938411074d2dec0d87bfc93fb0b47",
+      "payload_digest": "c8762f2188c00d7a131a3e0289e6cedf0b766a87ac38f288bff5b15f67c7eb81",
+      "vector_id": "APV-021-MATRIX-09"
+    },
+    {
+      "index": 22,
+      "leaf_hash": "d4a7c615605ea9ac47ea291cffd304290d9c8ca0c2c976b8e214547a225593d5",
+      "payload_digest": "a2964f342a1fd15f9d5061f513b33a59bc6bf52df3adb7d8990a1185b328dca0",
+      "vector_id": "APV-022-MATRIX-10"
+    },
+    {
+      "index": 23,
+      "leaf_hash": "ca8b6c1e600371de61ad92d542aa214219b57b2a07abc051b044fee352bd3391",
+      "payload_digest": "28356b40d6e75de31f93bdeff53f3c6d30d278afb1120be6983ede6afba8a4ad",
+      "vector_id": "APV-023-MATRIX-11"
+    },
+    {
+      "index": 24,
+      "leaf_hash": "603413d5ec40379b173c64a039767174af1c8ea24cc579f6c81fa59efcac9db3",
+      "payload_digest": "f1b575c59f1786a378de26ac891143be33cb27dc29d9d2da8bd48627b0a86815",
+      "vector_id": "APV-024-MATRIX-00"
+    },
+    {
+      "index": 25,
+      "leaf_hash": "c96be8fb55d77315b25b417c141a36d94b7244d346435f7165dfcbd07a85bdb6",
+      "payload_digest": "cb345caf7036a88d29e2121ba3826e77fabe08f6ee227e0a796a9db4094d71dc",
+      "vector_id": "APV-025-MATRIX-01"
+    },
+    {
+      "index": 26,
+      "leaf_hash": "e2a942a3ad78a1569521de09406d664303ca5911bad6c8250924d5e1a01f638e",
+      "payload_digest": "d6cbd0aeba67a2fca19bf52a8e06c5451f9be81a5716f862e95bdd88d6651ca9",
+      "vector_id": "APV-026-MATRIX-02"
+    },
+    {
+      "index": 27,
+      "leaf_hash": "c79619057e7b60502f396df428b07c6afec0c74cd6ce9585bb2a4228e790d698",
+      "payload_digest": "175b5e6d4f289c249c3fb6fa9dd8cefab8bb045f044332997a6d146efc019236",
+      "vector_id": "APV-027-MATRIX-03"
+    },
+    {
+      "index": 28,
+      "leaf_hash": "b59cc5f7a2765bae2f78a884eb02fd924e2448b8b5d29eacc3b13d5d52c09d35",
+      "payload_digest": "7a5c30ab5b072a9399eeb7c594286fed66e748f40a9c94316bc8143f7589e3bd",
+      "vector_id": "APV-028-MATRIX-04"
+    },
+    {
+      "index": 29,
+      "leaf_hash": "c7d9e024d7c0c03e4e8016f79dd5a6b36776d7fba7f25fb18a151f80eb0bd867",
+      "payload_digest": "2b61d8da55415743594bf78c04b1cea9742ec5e535a3639d3f4d8f9630995a54",
+      "vector_id": "APV-029-MATRIX-05"
+    },
+    {
+      "index": 30,
+      "leaf_hash": "12cf1a01c32d88a3bcc33a4544865f39f28b1c79230de9dec7ddae853f5de27d",
+      "payload_digest": "98f35eab606d7296acd1f4b4e0440c35eb0eb31644a755b12033da2d94114d26",
+      "vector_id": "APV-030-MATRIX-06"
+    },
+    {
+      "index": 31,
+      "leaf_hash": "c65e8aa8a0829137f0840cd586069f86ed1fa894a76b632fc13a39ffaabd236f",
+      "payload_digest": "0bdf20314c32bfcb7ddff89108ccad43f583a8e1fb5fcf1d6fef3141baef44af",
+      "vector_id": "APV-031-MATRIX-07"
+    },
+    {
+      "index": 32,
+      "leaf_hash": "dc6cfa404ba468a01972e8b4936e2c809a6016c2889d06b96da759e0c54f4a64",
+      "payload_digest": "d35b5c25af2faf4f2db5a485e74043e63d0864600909dfd456e6e86c64fbfbc0",
+      "vector_id": "APV-032-MATRIX-08"
+    },
+    {
+      "index": 33,
+      "leaf_hash": "da112429102104d5f9d97a063ec008bdd071740d4d4efeeb7aeb70069f224afa",
+      "payload_digest": "84e0d6c3db6218fdace61238ba3f97302bfe6ef0139f3c562437b8fb48ff1d30",
+      "vector_id": "APV-033-MATRIX-09"
+    },
+    {
+      "index": 34,
+      "leaf_hash": "b5a664f70cfdf24b6fb6a2f5969f82957af77c0c46ba4ace803310c84ffbaf7e",
+      "payload_digest": "d49c311993ec77eeaff0a1c0058c8d4bb884eca4fcaecb1612e1643dd6dc4a67",
+      "vector_id": "APV-034-MATRIX-10"
+    },
+    {
+      "index": 35,
+      "leaf_hash": "ac25ffcd1b1f2bfb2aab60c0117eec8e95b801cd3b15832d0e4bf52ea68168d0",
+      "payload_digest": "534852ef47195c7120d7376367b56230baf222703c46ac324bc0002eaff4ee93",
+      "vector_id": "APV-035-MATRIX-11"
+    },
+    {
+      "index": 36,
+      "leaf_hash": "e88d9d4806fcf763b04d72656892d8e81c949d800ef91f74dafe86b65cd2f10e",
+      "payload_digest": "d91d8959840a3623fccc32f859fa1303ee990119be9662f2ea3fecfe91109394",
+      "vector_id": "APV-036-MATRIX-00"
+    },
+    {
+      "index": 37,
+      "leaf_hash": "494ad96dbeb63caacbe2f7f24d55ec9ca94bb8d118393ef1fd92482e2e07c239",
+      "payload_digest": "dbc4e46441bf904d4786d9a47e2169576eb2e54b9a0d06e949cb8008a92e4d58",
+      "vector_id": "APV-037-MATRIX-01"
+    },
+    {
+      "index": 38,
+      "leaf_hash": "1a0aa0e356cc0c213ada7d3ecad52d32eb0b07e3d8fec7fba3a4d4c145283088",
+      "payload_digest": "2a84336467ce563cf238c8ab6c4a729f91a4b564376530cb9d2055ef210b7b9a",
+      "vector_id": "APV-038-MATRIX-02"
+    },
+    {
+      "index": 39,
+      "leaf_hash": "f0c9f71a9d3046fc0b4f415c7584fdf1b052f981d554363bfdaa3c8f45351707",
+      "payload_digest": "5c320231da83d555021384c0aef720e9049cacdff3f76133fcd8c1a536371113",
+      "vector_id": "APV-039-MATRIX-03"
+    },
+    {
+      "index": 40,
+      "leaf_hash": "86b1a9acdaa12e55118e9d3d28b9c2d85b7ecffc5be889fa868c743beede8608",
+      "payload_digest": "4ea9dc85997f22d52b28e3839a419122eaf49feeee058f0c4f817841597de4c3",
+      "vector_id": "APV-040-MATRIX-04"
+    },
+    {
+      "index": 41,
+      "leaf_hash": "7023f649de082607eaffcf5da6df888c4ac4903ccbf928f3e1a76fb4057f0e5f",
+      "payload_digest": "93b4d1148f5d82ef81575ef76a434a1e6ba05da419b8131d3eaefa8a52ed3d78",
+      "vector_id": "APV-041-MATRIX-05"
+    },
+    {
+      "index": 42,
+      "leaf_hash": "42b0dad9bae1bd5bd95833865b09a6e521df9f364c58dacbe796dd4c14f3a8e3",
+      "payload_digest": "085fbcfcbde8d50256bdda3536082d83b75321a767ed4550fd6ae5dd400f9ed2",
+      "vector_id": "APV-042-MATRIX-06"
+    },
+    {
+      "index": 43,
+      "leaf_hash": "752984600ebac1fa360339187e2422682aa070f1ac4863a6b90c4d00ee6fa26b",
+      "payload_digest": "5d0125b140c70875eb8c8a34c13570e4a798c806cc17e07ff7924bb7eed6f20a",
+      "vector_id": "APV-043-MATRIX-07"
+    },
+    {
+      "index": 44,
+      "leaf_hash": "7f696cd983815adfbf9567665941782b941d70d803f349d4b51c3e5c9bbf14fb",
+      "payload_digest": "2a69ce534237cfecf6a94f37b19e0b764dfc1ece67cb0946eb95e0c863be137b",
+      "vector_id": "APV-044-MATRIX-08"
+    },
+    {
+      "index": 45,
+      "leaf_hash": "0761dec00ddc2a4bf55dac93c0cdce2a382e0c9872e9bc7eb882d84473b96d09",
+      "payload_digest": "be5d5bfa87e33ac5c3fee5532106437d8b2740b5e0a0a38b8a5ecbcc0d53d9c7",
+      "vector_id": "APV-045-MATRIX-09"
+    },
+    {
+      "index": 46,
+      "leaf_hash": "9fefff0cdf1a61a8fe4a1744d9ab230cdd0f9d417a1abdd3b6a49e9bcae8f823",
+      "payload_digest": "23bc57efdf2ecfb5251ee4c64ce3531cd118e3fd31db3bcc90d33ba32cd457d7",
+      "vector_id": "APV-046-MATRIX-10"
+    },
+    {
+      "index": 47,
+      "leaf_hash": "607f8cee3f10fad48ad9c4e893da6bfbb17f7e23405cda0e80e7bc67762dd775",
+      "payload_digest": "4b1a565ea6e7c40d1d181555ebe93295d6aa087c9ebd627e6daee4f28b8b1251",
+      "vector_id": "APV-047-MATRIX-11"
+    },
+    {
+      "index": 48,
+      "leaf_hash": "43279556a2154890c8e131b758590a95854feefb3d1297224353f0183e8f7e64",
+      "payload_digest": "01b3a3ce711a6616bc38d8e39d780902eb61bb61bcd8f964bbe452b68e52fca7",
+      "vector_id": "APV-048-MATRIX-00"
+    },
+    {
+      "index": 49,
+      "leaf_hash": "40a5e6be9b3c0af03e273dd146cddb4f3a7a4274ec59610aeae530186e54f784",
+      "payload_digest": "b2b35868c2dbbb15f7b2d7a0ac886e8fc0b1a360488b89aab77c1b80418371b8",
+      "vector_id": "APV-049-MATRIX-01"
+    },
+    {
+      "index": 50,
+      "leaf_hash": "9d4c07fc8e8ab80d5530fc420c895e3b1748504cdca6704abab13593c8cec118",
+      "payload_digest": "36d12f4893c6ed2c07c8cb9e5a06d735a7284c923ea84fbb410d83d46e2de21a",
+      "vector_id": "APV-050-MATRIX-02"
+    },
+    {
+      "index": 51,
+      "leaf_hash": "08c11fd9207d3f5e985c6db4f178647aa58e62c082c25f69736eb22b04f45d4a",
+      "payload_digest": "4755d4be28f6a432f233887a2ff7ca6b0730f1bc5b5c5c88aea2fcb906cfa39c",
+      "vector_id": "APV-051-MATRIX-03"
+    },
+    {
+      "index": 52,
+      "leaf_hash": "d10a230e62816188e7efe86dc571205157e38bbfc2a7538a54a6ad5940ed5e9b",
+      "payload_digest": "51fec2d8e8767df701de6759d373269dbef9018d1eab39bc8e7be4ca9663a3f3",
+      "vector_id": "APV-052-MATRIX-04"
+    },
+    {
+      "index": 53,
+      "leaf_hash": "e3c986f94326281f6fe36cc9570e7bd4b02cb8e586370e91e91b4ff646b1e723",
+      "payload_digest": "48cbeff5c2bde0928324a47541531fd0f241844315ca3856b56fe37c899d9cc9",
+      "vector_id": "APV-053-MATRIX-05"
+    },
+    {
+      "index": 54,
+      "leaf_hash": "9dd19900abcb9e41cdbae89d4e689a58be1433d5a6e8b02c0fedb39659983382",
+      "payload_digest": "4cc5485a62dcf33a77f72f8f5ebacebe84288c9a537f23508c19b7dd8400a5c7",
+      "vector_id": "APV-054-MATRIX-06"
+    },
+    {
+      "index": 55,
+      "leaf_hash": "664ca4cfcdb1417fe402f7f6119e7bb8d8ec314c834b6790f6fc8ebc6a07fee1",
+      "payload_digest": "532ff0beaef451cbd8a34f76bc778a85713ab25c6372977f15d568eea78cb2d8",
+      "vector_id": "APV-055-MATRIX-07"
+    },
+    {
+      "index": 56,
+      "leaf_hash": "5fdb88c94da392d51bdadf1c0a8556c8849215e6b84d594c7f6588da2be17fd4",
+      "payload_digest": "daee3b703d85b3609ef9c18f5c8e8d244ec836693ec2e7ee4f777fa148bbaae8",
+      "vector_id": "APV-056-MATRIX-08"
+    },
+    {
+      "index": 57,
+      "leaf_hash": "988237d2d245fe54b4fe523560a18bd3961334aa3d3eb88583cdf0549e834a9f",
+      "payload_digest": "9bb37f74a71db6701a7114ca65c7941ac85f66767c8984d496f6bf9a67755deb",
+      "vector_id": "APV-057-MATRIX-09"
+    },
+    {
+      "index": 58,
+      "leaf_hash": "965bedb639023a25c5276cd2f211cd0b0920f8c1bfd2138436ad21701527b6b2",
+      "payload_digest": "8f68a64141413011abadd5d8bff29e41649bb3c21d58c703e58a6bff3b954f1d",
+      "vector_id": "APV-058-MATRIX-10"
+    },
+    {
+      "index": 59,
+      "leaf_hash": "c3d44007a1f2ef59a29ee2b8d117852ed7f651b408b371f1e9baea52ad4dd358",
+      "payload_digest": "aebfebfc0ebe5123d4f665a1829a1e7514a6eeb60d01090ee5035d2b39800291",
+      "vector_id": "APV-059-MATRIX-11"
+    },
+    {
+      "index": 60,
+      "leaf_hash": "d6c33a40165753486f618ed675f4feada919db5b92377252830276b9f1ef4160",
+      "payload_digest": "8a4c10dbcdb9c7b508bb9f2f99a7236ad796697ae8cd131f1a35bd4d23ca8e12",
+      "vector_id": "APV-060-MATRIX-00"
+    },
+    {
+      "index": 61,
+      "leaf_hash": "8263a5823289aa1b057073dae3ca7de008f025349c8dbff33194a756219a5b1d",
+      "payload_digest": "3c8ea96ad11649139cec32b1382673fdeaf58acd0e20621fd2f57b40bd2aa632",
+      "vector_id": "APV-061-MATRIX-01"
+    },
+    {
+      "index": 62,
+      "leaf_hash": "368e4ca6d047df6c119bd477879d8d07d855691be9f4b276497474819c3f5e41",
+      "payload_digest": "80fa9c91fe10b483c239af12cbfc5b669c17a0470c6781555fcdc53365df737c",
+      "vector_id": "APV-062-MATRIX-02"
+    },
+    {
+      "index": 63,
+      "leaf_hash": "b89398f084ad38cd93bf708f188aec397ddfc5fcd830439943dfaef7a28ceea7",
+      "payload_digest": "7bedfee3e5c641e4f33d9e3b12eaec837442d7ac06e0fcffc504bcab170a1b6d",
+      "vector_id": "APV-063-MATRIX-03"
+    }
+  ],
+  "notes": [
+    "This is a deterministic public-evaluation transparency bundle.",
+    "The signing key is public-eval only and is not a production trust root."
+  ],
+  "selected_inclusion_proofs": [
+    {
+      "index": 0,
+      "leaf_hash": "6d154ce54c347e6c4f8417b2fb035ad1ec05e1873d28b982fed01455ff3046a7",
+      "proof": [
+        {
+          "hash": "f5b9a3ac78469e28c5cbbcaf7f9065d8f21d328c816cca58e9f30e65da1fa19f",
+          "side": "right"
+        },
+        {
+          "hash": "aaeadfdc6de90b2af02e8fc6741d370a355b42318fc4e3f5d47c6554fcd2b1f2",
+          "side": "right"
+        },
+        {
+          "hash": "a50424b94faa4cea01439732cebaced0ccdfbb35ab963ac670c870c1834f3aaa",
+          "side": "right"
+        },
+        {
+          "hash": "c7aa28744e48db5e6c291dd8e7b97c0c5e30d319286c1882fb33b39bde70c035",
+          "side": "right"
+        },
+        {
+          "hash": "5ed33296357076a2d2f1bc217405a514a1886dd69aec1dbb53c595aaf139104d",
+          "side": "right"
+        },
+        {
+          "hash": "1e02907ae107df4e905872a6c6a4809a5a68f247f0c8a8eb9fe8df90ab3e1ff1",
+          "side": "right"
+        }
+      ],
+      "vector_id": "APV-000-ACCEPT-BASELINE"
+    },
+    {
+      "index": 1,
+      "leaf_hash": "f5b9a3ac78469e28c5cbbcaf7f9065d8f21d328c816cca58e9f30e65da1fa19f",
+      "proof": [
+        {
+          "hash": "6d154ce54c347e6c4f8417b2fb035ad1ec05e1873d28b982fed01455ff3046a7",
+          "side": "left"
+        },
+        {
+          "hash": "aaeadfdc6de90b2af02e8fc6741d370a355b42318fc4e3f5d47c6554fcd2b1f2",
+          "side": "right"
+        },
+        {
+          "hash": "a50424b94faa4cea01439732cebaced0ccdfbb35ab963ac670c870c1834f3aaa",
+          "side": "right"
+        },
+        {
+          "hash": "c7aa28744e48db5e6c291dd8e7b97c0c5e30d319286c1882fb33b39bde70c035",
+          "side": "right"
+        },
+        {
+          "hash": "5ed33296357076a2d2f1bc217405a514a1886dd69aec1dbb53c595aaf139104d",
+          "side": "right"
+        },
+        {
+          "hash": "1e02907ae107df4e905872a6c6a4809a5a68f247f0c8a8eb9fe8df90ab3e1ff1",
+          "side": "right"
+        }
+      ],
+      "vector_id": "APV-001-REFUSE-SUBJECT-MISMATCH"
+    },
+    {
+      "index": 32,
+      "leaf_hash": "dc6cfa404ba468a01972e8b4936e2c809a6016c2889d06b96da759e0c54f4a64",
+      "proof": [
+        {
+          "hash": "da112429102104d5f9d97a063ec008bdd071740d4d4efeeb7aeb70069f224afa",
+          "side": "right"
+        },
+        {
+          "hash": "3b2fda1463a9280c41cc26613a2430814299981e178d9c8727cf83c1b5fe87ab",
+          "side": "right"
+        },
+        {
+          "hash": "cf38758539aa085a61a3ce0c27e656829be652b7268320ad342d7f499c8fac35",
+          "side": "right"
+        },
+        {
+          "hash": "62e82c47b1d58d4bd5eeaa5dbdd1c815f1287ebe23186e838999207edb2a28b3",
+          "side": "right"
+        },
+        {
+          "hash": "2c644495b4316c8c8ba1e8a9655af510e89b142e7c97314e73c5995d26c969b9",
+          "side": "right"
+        },
+        {
+          "hash": "35c4a5fdedf6a5545a66c8962ecfdbb94d14c8fa22fd05b60c2bb16d0bb3a29e",
+          "side": "left"
+        }
+      ],
+      "vector_id": "APV-032-MATRIX-08"
+    },
+    {
+      "index": 63,
+      "leaf_hash": "b89398f084ad38cd93bf708f188aec397ddfc5fcd830439943dfaef7a28ceea7",
+      "proof": [
+        {
+          "hash": "368e4ca6d047df6c119bd477879d8d07d855691be9f4b276497474819c3f5e41",
+          "side": "left"
+        },
+        {
+          "hash": "c8f6e18cdf775c048805ac784c778aec9edc8fbde8003512eb828a1675250ca0",
+          "side": "left"
+        },
+        {
+          "hash": "f1bf4744d1dae27be00ac423d997b838ee7be2e9177a6459b6bf33d11e9d012f",
+          "side": "left"
+        },
+        {
+          "hash": "a597f4fbd76c6f03a7cf617dd28b835bb28fbdded0b9c2d16d3d0f760c6c3daa",
+          "side": "left"
+        },
+        {
+          "hash": "8dadb15e45d2205360e7262b3b2ca511f7b2547f234f8daa8904eb622f099ae0",
+          "side": "left"
+        },
+        {
+          "hash": "35c4a5fdedf6a5545a66c8962ecfdbb94d14c8fa22fd05b60c2bb16d0bb3a29e",
+          "side": "left"
+        }
+      ],
+      "vector_id": "APV-063-MATRIX-03"
+    }
+  ],
+  "tree_head": {
+    "hash_algorithm": "SHA-256",
+    "profile": "AP-TRANSPARENCY-BUNDLE-v1",
+    "public_eval_key": {
+      "production_use": false,
+      "profile": "AP-ED25519-PUBLIC-EVAL-v1",
+      "public_key_base64": "RZsgJ3DGuc6drgClX7qulm3aZLaial59f8r/HfWG6VI=",
+      "seed_sha256": "c0389ae06acee0fc61feaf8085d4dff81b1bb608559af976811daac350ff8627",
+      "warning": "Deterministic public-eval key only; not a production trust root."
+    },
+    "results_digest": "a0bd7150f9bd20546576351cd3a0fe0abcb0f6191608e386c17e442f30222e3c",
+    "root_hash": "e4c446dca73557bcf548c8b2771b8611c5303885a45a9e84f7696b2c65e7c31c",
+    "signature_profile": "AP-ED25519-PUBLIC-EVAL-v1",
+    "tree_size": 64
+  },
+  "tree_head_signature_base64": "Qrheb1TT9wcQtBnY6B/3Y5hlA+QNJBdEF34xbXMDv1mwKfWw8PkgS2zPNMSNKwHgSB3V67ZE4RVwoSEcFgJzCw=="
+}

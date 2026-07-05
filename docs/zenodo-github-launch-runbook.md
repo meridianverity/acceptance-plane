@@ -21,7 +21,7 @@ Recommended public wording:
 
 > **Meridian Verity Group is publishing a public architecture thesis for the Acceptance Plane in agentic AI infrastructure.**
 
-Avoid unsupported absolute claims such as "first ever in the world," "formal standard," "patent-protected mechanism," or "compliance guarantee."
+Avoid unsupported absolute claims such as absolute priority, formal-standard status, patent-protected-mechanism status, or compliance guarantees.
 
 ---
 

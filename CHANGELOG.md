@@ -1,5 +1,19 @@
 # Changelog
 
+## v1.0.1-public-eval - 2026-06-11
+
+- Added hardened public-evaluation proof overlay.
+- Fixed manifest/source-tree drift from the uploaded ZIP package.
+- Restored missing `.github`, `.gitignore`, and `.zenodo.json` files.
+- Added deterministic 64-vector ACCEPT/HOLD/REFUSE scenario suite.
+- Added scenario-card linter promised by the README.
+- Added Ed25519-signed public-eval proof receipt.
+- Added signed Merkle transparency bundle.
+- Added independent recomputation script that does not import the evaluator package.
+- Added source/archive release artifact verifier.
+- Added Makefile, pyproject packaging metadata, pytest suite, schema examples, and adapter-shape sketches.
+- Strengthened public claims discipline and release gate checks.
+
 ## v1.0.0 - 2026-06-11
 
 - Public canonical package for the Acceptance Plane.

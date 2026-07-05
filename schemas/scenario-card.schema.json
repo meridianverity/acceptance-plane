@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/acceptance-plane/scenario-card.schema.json",
+  "title": "Acceptance Plane Scenario Card",
+  "type": "object",
+  "required": ["schema", "scenario_id", "action", "authority", "evidence", "policy"],
+  "properties": {
+    "schema": {"const": "AP-SCENARIO-CARD-v1"},
+    "scenario_id": {"type": "string"},
+    "title": {"type": "string"},
+    "action": {"$ref": "action-envelope.schema.json"},
+    "authority": {"type": "object"},
+    "evidence": {"$ref": "evidence-envelope.schema.json"},
+    "policy": {"type": "object"}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,40 @@
+{
+  "receipt_core": {
+    "canonical_doi": "10.5281/zenodo.20645907",
+    "claims_boundary": {
+      "no_patent_license": true,
+      "not_a_compliance_certification": true,
+      "not_a_product_implementation": true,
+      "not_a_standard": true,
+      "public_eval_only": true
+    },
+    "package": "acceptance-plane",
+    "profile": "AP-PROOF-RECEIPT-v1",
+    "public_eval": {
+      "failed": 0,
+      "passed": 64,
+      "results_digest": "a0bd7150f9bd20546576351cd3a0fe0abcb0f6191608e386c17e442f30222e3c",
+      "vector_count": 64
+    },
+    "public_eval_key": {
+      "production_use": false,
+      "profile": "AP-ED25519-PUBLIC-EVAL-v1",
+      "public_key_base64": "RZsgJ3DGuc6drgClX7qulm3aZLaial59f8r/HfWG6VI=",
+      "seed_sha256": "c0389ae06acee0fc61feaf8085d4dff81b1bb608559af976811daac350ff8627",
+      "warning": "Deterministic public-eval key only; not a production trust root."
+    },
+    "signature_profile": "AP-ED25519-PUBLIC-EVAL-v1",
+    "transparency": {
+      "root_hash": "e4c446dca73557bcf548c8b2771b8611c5303885a45a9e84f7696b2c65e7c31c",
+      "tree_head_signature_base64": "Qrheb1TT9wcQtBnY6B/3Y5hlA+QNJBdEF34xbXMDv1mwKfWw8PkgS2zPNMSNKwHgSB3V67ZE4RVwoSEcFgJzCw==",
+      "tree_size": 64
+    },
+    "version": "1.0.1-hardened-public-eval"
+  },
+  "receipt_core_digest": "68f79b258558aba078a3e2f402f0dae272fbeaa40378e33dff7ecfd92a945328",
+  "receipt_core_signature_base64": "1a5GFlt21CUydJsmTXi4Ub1wICjeDaMP8asgTPDSNgGUDOkZyHRPycZPoO/Ybnjv2X4mi68zMtRwWAhx+H8RCw==",
+  "verification_notes": [
+    "Use tools/verify_proof_receipt.py for receipt self-check and optional archive binding.",
+    "The Ed25519 key is deterministic and public-eval only; it is not a production trust root."
+  ]
+}

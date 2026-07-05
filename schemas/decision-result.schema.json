@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/acceptance-plane/decision-result.schema.json",
+  "title": "Acceptance Plane Decision Result",
+  "type": "object",
+  "required": ["scenario_id", "decision", "reason_code", "receipt_core", "receipt_digest"],
+  "properties": {
+    "scenario_id": {"type": "string"},
+    "decision": {"enum": ["ACCEPT", "HOLD", "REFUSE"]},
+    "reason_code": {"type": "string"},
+    "receipt_core": {"$ref": "receipt.schema.json"},
+    "receipt_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": true
+}

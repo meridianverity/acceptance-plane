@@ -1,0 +1,32 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "creationInfo": {
+    "created": "2026-06-11T00:00:00Z",
+    "creators": [
+      "Organization: Meridian Verity Group",
+      "Tool: acceptance-plane-public-eval-overlay"
+    ]
+  },
+  "name": "acceptance-plane-public-eval",
+  "documentNamespace": "https://example.invalid/acceptance-plane/spdx/v1.0.1-public-eval",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-AcceptancePlanePublicEval",
+      "name": "acceptance-plane-public-eval",
+      "versionInfo": "1.0.1-public-eval",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "CC-BY-4.0",
+      "licenseDeclared": "CC-BY-4.0",
+      "copyrightText": "Copyright (c) 2026 Meridian Verity Group"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-Package-AcceptancePlanePublicEval"
+    }
+  ]
+}

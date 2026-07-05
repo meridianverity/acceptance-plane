@@ -1,0 +1,969 @@
+{
+  "failed": 0,
+  "passed": 64,
+  "profile": "AP-PUBLIC-EVAL-v1",
+  "results": [
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "bf94902380a8efad6e067a33f6a7baf72282b6af026e497320620c128c19fe21",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "e6d9b840aad9514f62191b7a10ac8b78f97b6f97b6a601023fd6076471a618a2",
+      "vector_id": "APV-000-ACCEPT-BASELINE"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "556541f73f8415af30745aff5b6162bad372404c863d5c818b8afae739f530ec",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-110_SUBJECT_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-110_SUBJECT_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "5441a826ea0e2d8766aae5307063165df278dfa9673f64c618c98f633d152dfe",
+      "vector_id": "APV-001-REFUSE-SUBJECT-MISMATCH"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "43915549a3f17927552fb131357993c564e877cc75b95e54550a400c3d516c63",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-111_IDENTITY_INVALID"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-111_IDENTITY_INVALID"
+      },
+      "ok": true,
+      "receipt_digest": "e542723c0efbb9aace947d3922a531b90d588b05c21323393e4e86de897a720c",
+      "vector_id": "APV-002-REFUSE-IDENTITY-INVALID"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "f1a20a6292a4367a9c738bf2afb542143bd9115ca1b5a65c83e6224855427997",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "ok": true,
+      "receipt_digest": "8123bcfcec02ce2b21436e0ab3095a1a1a1a2d2e51e3189bc7cf57247da6d8c7",
+      "vector_id": "APV-003-REFUSE-AUTHORITY-EXPIRED"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "6ec647bab34a77c595beb70bcf1291520cfcceb02cbe5a603fbec4e77652d559",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "ok": true,
+      "receipt_digest": "886a408349e58c614c49c1999ea764fb4f71f04d6f49035a9a163b25950c5305",
+      "vector_id": "APV-004-REFUSE-AUTHORITY-REVOKED"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "7e6011fbab20a9d65dc6cd9c4a6a11097ae9752373f445017f780e45a33080c0",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "16d16b20ab415deaefdbd16dcb7f7696be2af6c6e469a8169d460b67fb378681",
+      "vector_id": "APV-005-REFUSE-SCOPE-MISMATCH"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "5463614e7d09a815daf91d3428b8676eed799abb61e58058e97e931ce8094a6f",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "9feafe34a854c3d7be5f1a3d31323568a8dc22e967180c26062015324c316d67",
+      "vector_id": "APV-006-REFUSE-TARGET-MISMATCH"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "eb7913714ea808b801ef546e64a8180b1d499b08de519b8c06272968c87597f8",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-140_ATTESTATION_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-140_ATTESTATION_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "b37e2e7077c5c85615cd841dce7578752dc6505526e53ea18d56cd9fb0a61a38",
+      "vector_id": "APV-007-HOLD-ATTESTATION-MISSING"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "75c5e8d66dd614322737e36b05167dbbf3c75b8e2cf4bdf8959d638c67a83a24",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "ok": true,
+      "receipt_digest": "772b7f20b7b2d57eac93154df25ed43306df65ce39b12cf503fd34663a4268a0",
+      "vector_id": "APV-008-REFUSE-ATTESTATION-UNTRUSTED"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "044baa84db37a0092314d1c2103b977fa7db832834f56e6ed7d9acad7059789b",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "767283db39b774e8386a928765c694939ef6ccc185a152147fd9e4ae3f1bb00e",
+      "vector_id": "APV-009-REFUSE-POLICY-DIGEST-MISMATCH"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "3223dd59eb6c5d7637252c62a8925f73c1bbe19cdaabd153e849973c221194c8",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "ok": true,
+      "receipt_digest": "4bd1a7b8f8791ed395c1b35140fb5ae298f0126d478c8e3bfc94d758c5bcf4ac",
+      "vector_id": "APV-010-HOLD-EVIDENCE-STALE"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "70a25ef4514e2dbbdd0c558c671d1f5b0cded7b9f6e2e7073703f14f46ee64dc",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "ok": true,
+      "receipt_digest": "571f87a2651b16eb8a300799dfcf56972361704961a45d562b65b9c9bd284bc1",
+      "vector_id": "APV-011-HOLD-APPROVAL-REQUIRED"
+    },
+    {
+      "action_digest": "d00b534a5359c4250dd3b5234b1ea1f50a78543fb35cb900cf12d49aabcb9628",
+      "evidence_digest": "21a75b3ee8d748b710fdbf0e9b0ad2c129cc3e1eb068156ea4cdac4f27e223e1",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "ok": true,
+      "receipt_digest": "185ad56ad81a5364b5298626f55a8d5fa400a30e7c1feeb88808c668cdfb68f1",
+      "vector_id": "APV-012-HOLD-RISK-EXCEEDS-AUTHORITY"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "ade3bea07966ed075f823a03bae04426b7d68284356ac5cd05452fcea1a09336",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "10dcbe2c8531914a31b1dff89834a0b672983909257535a2ade553e3db301db9",
+      "vector_id": "APV-013-HOLD-TRANSPARENCY-MISSING"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "7f5274388e47f1da13b948b42491b42b8b4097172ac84d9688314010cf247a7b",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "ac493ef79b7b60be8c176df5089e9d3649a2f37722d6a1586c178bb990ad6e8d",
+      "vector_id": "APV-014-ACCEPT-WILDCARD-SCOPE"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "13efef480c1ac76236090434989bce3006b2f39b7cbf7a3b02f1e2d92a007208",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "aa666aa787b9138c39768eba0b381a1ad63d9cd3975bae82296c7fc765262a85",
+      "vector_id": "APV-015-ACCEPT-APPROVAL-PRESENT"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "bf94902380a8efad6e067a33f6a7baf72282b6af026e497320620c128c19fe21",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-170_REPLAY_DETECTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-170_REPLAY_DETECTED"
+      },
+      "ok": true,
+      "receipt_digest": "64ce88404a985394f36350fe43f7111dba93f9d5f12cabf551a7232fdf8df95a",
+      "vector_id": "APV-016-REFUSE-REPLAY-DETECTED"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "aff3ce0c0c77b2a69ef45ef8e8075944c165133ff97a7db069125c12e61c46f6",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "ok": true,
+      "receipt_digest": "8112ea1c41a0743f06007b1e6240d281ecacae7459ced321c9bf057669f396c3",
+      "vector_id": "APV-017-MATRIX-05"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "435fff175d35bcd5ff7078f6940deaf69690ebe0c3db55e5e4727c5c93c651f1",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "ok": true,
+      "receipt_digest": "3125f9f89acb77ceb67bf1d05b9b60e117aaa357a34f6a61d3be0713c147e26d",
+      "vector_id": "APV-018-MATRIX-06"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "e6b95d02a7845a89b53260a58c596b1715f1bce744c270d1be18cfed5c3db514",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "e63472ecdd6ff012e6f7f4b418387a6dba0694eea74ab6b3497f6398418c8496",
+      "vector_id": "APV-019-MATRIX-07"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "6e64c8beaec84159c9b3bda1903f34eafdcbdf9ea0682961e3b36400c3fc6b6b",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "bfd03dfb85c78e2acbcdc072ea7427d6095d03d3c0f803a5dde8dabd8f726377",
+      "vector_id": "APV-020-MATRIX-08"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "7d6172614e955d1f947685182242db1b95d8af104619937b70830a7d30554e52",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "ok": true,
+      "receipt_digest": "54c6dc0216c3123630a03efc09c15ac7ef2829b9d215e72338287c7416c5e10f",
+      "vector_id": "APV-021-MATRIX-09"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "f5646cf4d455c69fc8d401b5f7752454b2251d3bd117229e971fc214ff7d8e98",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "54cab6e270bd9c3eacaa1dbf69c8aaff33d78cd711182d1fa51d912909fb888d",
+      "vector_id": "APV-022-MATRIX-10"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "d1f72bbb616053b9b206d905ae3b881e742cb85e3ac54fcbb1c53f64d79bf0d6",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "280726babd8cf81b6660272b15260d488d8845b4be11a1b911b60baf392f1397",
+      "vector_id": "APV-023-MATRIX-11"
+    },
+    {
+      "action_digest": "1115dcaf2c15a832423ae02e7fb30292a01b1724fe9f826f72990d6e57dc0ec7",
+      "evidence_digest": "bdd3371af16d30d28f2c05a2ffd86c762c2944e0022bf29fb8581d5cfe24bdd8",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "cb128bc548571338a236aca731de31e227da131121ad69ecce2d58cedc07c5ab",
+      "vector_id": "APV-024-MATRIX-00"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "97e29666c31cf62338324dd832a696b617132240ffb6e68401143c92985f32ef",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "ok": true,
+      "receipt_digest": "75a814ab6100fd0ae38272f3190db63b59c93ab257bbde641effd95d136c5cf0",
+      "vector_id": "APV-025-MATRIX-01"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "c92b75bda008eabce281f884a39adc4a68baa502738ba27e887f6316dbb7ab3a",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "ok": true,
+      "receipt_digest": "e61272adde70a070e7581df9e6c24eca1bed2b420c5df1250c93bbfe5ec4bc99",
+      "vector_id": "APV-026-MATRIX-02"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "2feb4dd742ad64d1d1b37a700a5cd2f7756b5959f1e2856d7f0c2111e4f5dfe8",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "5973c4b58f487cee3c50bbce9c7a11ee9c99f5bd0d6ebe0c8fb73e69e3716fa9",
+      "vector_id": "APV-027-MATRIX-03"
+    },
+    {
+      "action_digest": "8b3176fe469f9dc4d34fd8a5a49b1281e219bd0ee141381b61c2f00ab6ec4cd8",
+      "evidence_digest": "b5f07a07c3b98f6342d0a940861b6c8e44779fb622f1811d78f34f43d17ede01",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "ok": true,
+      "receipt_digest": "4269f5f99d3b4bfa93cfa13b1a667c941550c26882b01602b46bbc44b3f2796d",
+      "vector_id": "APV-028-MATRIX-04"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "a11e649a43261b8b70c0552abd41ea3cdce24a9342142eac2648537e61a04e19",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "ok": true,
+      "receipt_digest": "debd2b14ad3e47b255b03b0fa00ec0b1fc94c13eb65c628ca9eb3163a2593c65",
+      "vector_id": "APV-029-MATRIX-05"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "b13d385121f83d85c5034e77975d2b8e7310dddb9b5c4ddb650efd0769ad9007",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "ok": true,
+      "receipt_digest": "0e615a2acefc67681b4d7bbda4fa9d3905f894fbfd04c06d0a711b31a65c81db",
+      "vector_id": "APV-030-MATRIX-06"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "f5efd04fdb01064dbbcf2bb2f503be1e1e241c5b6a0968a1907da63a6881408b",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "17621afc53ee2c9a342bfb5986517e070c48711c45b78a0467b0cc2e18a4de1a",
+      "vector_id": "APV-031-MATRIX-07"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "63b01e1060dd0908d92b5b8875232c7b4eb25ad35e46934b56f9222960cc2ff2",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "27b648cbf0f4f392ab95b8972258cbc387cbe193db899e5dbbd1845e7e3f6027",
+      "vector_id": "APV-032-MATRIX-08"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "0b7904bf6818735c0081f8910b2ab5e45c2c52a6622bf307c544110aa934fa88",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "ok": true,
+      "receipt_digest": "d21efa7a8191e1ac6261df0e44223462a5ed5e5ebe95bb335b2a0a1c36a50d64",
+      "vector_id": "APV-033-MATRIX-09"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "b9593582559a55f6639d065ee1b809ce799ad618d8f797ef090b2e01ef0306ac",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "c51b4501510f0b88d783ae3d4f5065ede5f30b85e42486ecd3eb4e6d2c5c102e",
+      "vector_id": "APV-034-MATRIX-10"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "d5b2cce7e9bd5e4078822e0f23b83ccacf52d42d781bc09be45266e71cd59bed",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "2edddaf2382f0f0a4370f528f3b5cfb7a5b0ed2196137bba4c1c2e7fa9921d7e",
+      "vector_id": "APV-035-MATRIX-11"
+    },
+    {
+      "action_digest": "1115dcaf2c15a832423ae02e7fb30292a01b1724fe9f826f72990d6e57dc0ec7",
+      "evidence_digest": "b647f865ffa1c5057d9ee45105f0ba7ffce7b17d93a8d01871595dddfdd8d9ca",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "1efd391e431d552be3fb754ec74e0866ee84d49565c61aaaa942818e1db0b260",
+      "vector_id": "APV-036-MATRIX-00"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "a3cb2a4727157a2ca731fdf24a49154604211be921fd429a62389155e453f9e7",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "ok": true,
+      "receipt_digest": "872a255366e8f9b3081be3ad59256e335dc20b31ef856c2c319232da7471c528",
+      "vector_id": "APV-037-MATRIX-01"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "490f5df355c8c3ee59fd04a30a3b3deb673ab8ce8528ade2a87bb0106d24a7c0",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "ok": true,
+      "receipt_digest": "487c616720300b040cde489e9dfbf10367df73533271f3ad3de99fd0b97b1449",
+      "vector_id": "APV-038-MATRIX-02"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "37080c0b37e56056e53e4e03504133550ffc9375731ecad886a100b1b4c92d98",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "f90ae04b28e3aebac5431b8dc10ff0854dc7082ec5771412c8fe87155ee7bec6",
+      "vector_id": "APV-039-MATRIX-03"
+    },
+    {
+      "action_digest": "8b3176fe469f9dc4d34fd8a5a49b1281e219bd0ee141381b61c2f00ab6ec4cd8",
+      "evidence_digest": "eae4f2b879e2d52ab3fea80352ab6418814fcae50068187b5a46ac6f6d35a481",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "ok": true,
+      "receipt_digest": "fdc9fea98bdfbdf4483bb65a24b455b7a419c90442fbeaead4fe5e8ce2ff1273",
+      "vector_id": "APV-040-MATRIX-04"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "bda3b63aaee2612f026f98ef875192620ddfe9685a1a25fc2e6679d9d53ca962",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "ok": true,
+      "receipt_digest": "00d7974f17a9f09397cb0354b73956fae77ec1b43e5f0d14ec53ea02b2c021d1",
+      "vector_id": "APV-041-MATRIX-05"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "1152050736f8d7421eeb0b5b2110c488a31bfd899279ea14f65f95407d0da549",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "ok": true,
+      "receipt_digest": "182868a9ba58cdd8225d50ac4bee3b1903f0a93f8efbd1a670d161dfd4746cf5",
+      "vector_id": "APV-042-MATRIX-06"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "75b3dbc590a3b00e7fc176fc8ebaffd03b1c9ae9eb7e8f18ffccf4322e857a36",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "baa0c8d8b7f61ccddc6ea186f498ca7d0a72378b48b38a96ac85363eb4c23b35",
+      "vector_id": "APV-043-MATRIX-07"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "c63aa08c84b857bed0f6d7e2ff6d1779f95c187a518db053ef132fafbccc15a8",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "227753f1e202e979f731e3bf8fa3187af63845f1e11e9186893f1df0fbf752e1",
+      "vector_id": "APV-044-MATRIX-08"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "26d06efa935d5dd8daa215199e5368c51a275b2756a551d5a930bd9130355407",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "ok": true,
+      "receipt_digest": "9df35e68fe207e7dab37d51fb91a603f29abbe172362dc1151f1a57d972d40e0",
+      "vector_id": "APV-045-MATRIX-09"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "b6486de9cc929fed39592755bb18e9ceb25f8c6f72dcd9738e1443b312651bfb",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "e59bb8d3d50fd966dec5047197e0274bdf752a0aa7b161ebb102871880f589ea",
+      "vector_id": "APV-046-MATRIX-10"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "8973ecbf3139ab054eff864f5f81200a394cc4d6a1fde71a90ac760bd1e3a7e5",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "41765fd96ab6a3c6fa267a40a76ded7451d8386ce25c52f237aad2414b390c01",
+      "vector_id": "APV-047-MATRIX-11"
+    },
+    {
+      "action_digest": "1115dcaf2c15a832423ae02e7fb30292a01b1724fe9f826f72990d6e57dc0ec7",
+      "evidence_digest": "9ca983f15e76ccc46ee1adafb003793c7763b43f725b97d6277bac3d2ae6c7e5",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "b8368cd4a889fc855913d2c7cebd84c4b9f102ded66ebfad6dc0f92d2940ddf1",
+      "vector_id": "APV-048-MATRIX-00"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "ccc42580e39d85a84185cdfc975b5501cc47d660992f2ce711c62d6f4ab68ad4",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "ok": true,
+      "receipt_digest": "ad9f72cab93e55fcef1247afea2a476c7571dda35ed9c5cf07692f3ea994e20e",
+      "vector_id": "APV-049-MATRIX-01"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "30b237a0306f92d5a6bc42cb99e164e51881479ac4deda26c5a3b8064327e522",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "ok": true,
+      "receipt_digest": "46a21031f19d8bff296ce2f1128a2864445c85ef05b0f2f1be4dda7f19e8f158",
+      "vector_id": "APV-050-MATRIX-02"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "d271367a0afb3ca9d5dd594300c575800e2a81ad825c7af4d63c3853a1950797",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "e9bdc7a33a258d920bfb9fd69a70a52443c9b417ea6b1f713a644988e7e25b03",
+      "vector_id": "APV-051-MATRIX-03"
+    },
+    {
+      "action_digest": "8b3176fe469f9dc4d34fd8a5a49b1281e219bd0ee141381b61c2f00ab6ec4cd8",
+      "evidence_digest": "b6a243ff5765fc87884af50b99ed5460d2667bf89c3b67a326e7bcad8911ca04",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-190_RISK_EXCEEDS_AUTHORITY"
+      },
+      "ok": true,
+      "receipt_digest": "0e8b23fa21180f94f8b7ae822f22640480dfc415392b31cacfc30f0c5d769bb7",
+      "vector_id": "APV-052-MATRIX-04"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "b46013ae17e4f41255a3b14d259ab9c0744423b64e26460a1a73ca35bbddea11",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-180_APPROVAL_REQUIRED"
+      },
+      "ok": true,
+      "receipt_digest": "cba5dd6a13c76f657a9fc700f3d00f3f8df8721282d816330e3241d9348f4d9a",
+      "vector_id": "APV-053-MATRIX-05"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "b4cddb45fdac92868605f90ef27fa67590a72004a82e736b62942aac7c7c12eb",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-141_ATTESTATION_MEASUREMENT_UNTRUSTED"
+      },
+      "ok": true,
+      "receipt_digest": "23d60f084724a747108532083188e995a8709b4a63ef63983b4bbe8f0ca646b2",
+      "vector_id": "APV-054-MATRIX-06"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "cc566dbb8df68ca0b1c5e7031c56d2589de4e640b8f72613950b32e61bbf6eb5",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-150_POLICY_DIGEST_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "082d8656dd314dcdf72abc12174d82f881eeca0a58c00fb203c87b88c5ed611a",
+      "vector_id": "APV-055-MATRIX-07"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "e1a6f30c7bf63b2aaa891189100fce7d55510fb4f4addd131f347347eb6a133f",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "8798dfa0d7936caf0a9480b9484bfeebd2a9a9f59fafadf06ee404135bea923b",
+      "vector_id": "APV-056-MATRIX-08"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "4f54f62a626c023c1663731fe4abd80bc5dbf80c1b5bb316516132648590f6e8",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-120_AUTHORITY_EXPIRED"
+      },
+      "ok": true,
+      "receipt_digest": "f2e8e04a3865abb274f069847959296ae6d5fea576cbed5375e151272bee4051",
+      "vector_id": "APV-057-MATRIX-09"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "932830db5d2922cf12d295f445acb8d673239e66e1efb0ea887ecc2dba396da6",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-200_TRANSPARENCY_PROOF_MISSING"
+      },
+      "ok": true,
+      "receipt_digest": "807d72167fb59d3772c878d6e91f92870082a7669ff69c005d2aabfbecb764f5",
+      "vector_id": "APV-058-MATRIX-10"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "08a89f244c977f55274a4d33214a2e9095ec0d3de87a407075a0cb7fc540abfd",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-122_SCOPE_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "ed5369ae74c1cadf2e556b1c7540dcd48ad61f98f3ebbbd0dce82d5fdabbe456",
+      "vector_id": "APV-059-MATRIX-11"
+    },
+    {
+      "action_digest": "1115dcaf2c15a832423ae02e7fb30292a01b1724fe9f826f72990d6e57dc0ec7",
+      "evidence_digest": "5c8994f6dbb7f9e0810ea8b0b0d7811657e63c05e82f969c0464f005e85b6358",
+      "expected": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "observed": {
+        "decision": "ACCEPT",
+        "reason_code": "AP-000_ACCEPTED"
+      },
+      "ok": true,
+      "receipt_digest": "ef0eb29a223e53f00678d70a9675d5f9b51a4bb78c22a6e6bd25785cd7e5398d",
+      "vector_id": "APV-060-MATRIX-00"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "363d6f0e97a031532866cc97a3ae30db692ba1e303767dc0cfa552784c740a0d",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-121_AUTHORITY_REVOKED"
+      },
+      "ok": true,
+      "receipt_digest": "42ad0d0e105ebef415f889be6d37a1d8aeeaa8b8eabc528c97a264247fb7d5fc",
+      "vector_id": "APV-061-MATRIX-01"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "695458c5b6583c3ce6dc92e1adc9a5070541ff1db05a594cc0a460cb73dbe4d5",
+      "expected": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "observed": {
+        "decision": "HOLD",
+        "reason_code": "AP-160_EVIDENCE_STALE"
+      },
+      "ok": true,
+      "receipt_digest": "2c647d31dd048292210412db546739af26e4f365193cc36a6e910a7b6f1b0d18",
+      "vector_id": "APV-062-MATRIX-02"
+    },
+    {
+      "action_digest": "b0331b4c13cca8f86ee90048ae32732cb81eac2daf342568c1f359dc47ee5d22",
+      "evidence_digest": "33e49fb30954fc04a98809c87d3713934b5082a913994bd5e6882163b497a3c5",
+      "expected": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "observed": {
+        "decision": "REFUSE",
+        "reason_code": "AP-130_TARGET_MISMATCH"
+      },
+      "ok": true,
+      "receipt_digest": "dde71cbb512bd93ee629b72adb38b2d323128cf688828159ceb7fc789dc8aebf",
+      "vector_id": "APV-063-MATRIX-03"
+    }
+  ],
+  "results_digest": "a0bd7150f9bd20546576351cd3a0fe0abcb0f6191608e386c17e442f30222e3c",
+  "vector_count": 64
+}

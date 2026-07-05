@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/acceptance-plane/receipt.schema.json",
+  "title": "Acceptance Plane Receipt Core",
+  "type": "object",
+  "required": ["profile", "scenario_id", "decision", "reason_code", "action_digest", "evidence_digest", "policy_digest", "boundary", "receipt_core_digest"],
+  "properties": {
+    "profile": {"const": "AP-RECEIPT-CORE-v1"},
+    "scenario_id": {"type": "string"},
+    "decision": {"enum": ["ACCEPT", "HOLD", "REFUSE"]},
+    "reason_code": {"type": "string"},
+    "action_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "evidence_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "policy_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "boundary": {"type": "string"},
+    "receipt_core_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

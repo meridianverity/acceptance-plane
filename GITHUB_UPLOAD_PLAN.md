@@ -1,4 +1,4 @@
-# GitHub Upload Plan — 99.9+ Provenance Path
+# GitHub Upload Plan — Hardened Provenance Path
 
 ## Decision
 

@@ -53,3 +53,26 @@ Canonical DOI: https://doi.org/10.5281/zenodo.20645907
 Recommended citation:
 
 > Lee, Scott. Meridian Verity Group. (2026). The Acceptance Plane: The Missing Trust Layer for Agentic AI Infrastructure (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20645907
+
+## Public-eval overlay language
+
+Recommended:
+
+- "hardened public-evaluation proof overlay"
+- "fresh-archive-verifiable provenance package"
+- "deterministic scenario vectors"
+- "signed public-eval receipt"
+- "independent recomputation"
+
+Avoid for public release copy:
+
+- "Nobel Prize"
+- "$10M+ build"
+- "99.9 score"
+- "world #1"
+- "guaranteed security"
+- "formal certification"
+
+Preferred replacement:
+
+> "The package provides a bounded, runnable public-evaluation proof chain that reviewers can verify locally."

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/acceptance-plane/evidence-envelope.schema.json",
+  "title": "Acceptance Plane Evidence Envelope",
+  "type": "object",
+  "required": [
+    "acceptance_boundary",
+    "identity_valid",
+    "runtime_attested",
+    "attestation_measurement",
+    "target_binding",
+    "observed_at",
+    "freshness_window_seconds",
+    "nonce",
+    "policy_digest"
+  ],
+  "properties": {
+    "acceptance_boundary": {"type": "string"},
+    "identity_valid": {"type": "boolean"},
+    "runtime_attested": {"type": "boolean"},
+    "attestation_measurement": {"type": "string"},
+    "target_binding": {"type": "string"},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "freshness_window_seconds": {"type": "integer", "minimum": 0},
+    "nonce": {"type": "string"},
+    "approval_required": {"type": "boolean"},
+    "approval_present": {"type": "boolean"},
+    "transparency_required": {"type": "boolean"},
+    "transparency_proof_present": {"type": "boolean"},
+    "policy_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": true
+}

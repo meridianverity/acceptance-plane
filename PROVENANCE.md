@@ -1,7 +1,8 @@
 # Provenance
 
 Package: MVG Acceptance Plane Public Canonical Package  
-Version: v1.0.0  
+Canonical thesis version: v1.0.0  
+Public-eval overlay: v1.0.1-public-eval  
 Release date: 2026-06-11  
 Organization: Meridian Verity Group  
 Author: Scott Lee  
@@ -9,11 +10,24 @@ Canonical DOI: https://doi.org/10.5281/zenodo.20645907
 
 ## Canonical Record
 
-The canonical citation is the Zenodo manual technical report record created by Meridian Verity Group for this package.
+The canonical citation is the Zenodo manual technical report record created by Meridian Verity Group for the v1.0.0 thesis package.
 
 Recommended citation:
 
 > Lee, Scott. Meridian Verity Group. (2026). The Acceptance Plane: The Missing Trust Layer for Agentic AI Infrastructure (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.20645907
+
+## Public-Eval Overlay
+
+The v1.0.1-public-eval overlay adds bounded, runnable proof artifacts:
+
+- `vectors/public_eval_vectors.jsonl`
+- `receipts/public_eval_results.json`
+- `receipts/transparency-bundle.json`
+- `receipts/acceptance-plane-proof-receipt.json`
+- `tools/independent_recompute.py`
+- `tools/verify_release_artifact.py`
+
+These files support review and provenance. They do not replace the canonical DOI or create a product specification.
 
 ## GitHub Repository
 

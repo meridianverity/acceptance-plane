@@ -1,0 +1,18 @@
+{
+  "profile": "AP-RELEASE-ATTESTATION-public-eval-v1",
+  "package": "acceptance-plane",
+  "version": "1.0.1-public-eval",
+  "canonical_doi": "10.5281/zenodo.20645907",
+  "attestations": {
+    "manifest_regenerated": true,
+    "source_tree_list_regenerated": true,
+    "public_eval_vectors": 64,
+    "public_eval_expected_passes": 64,
+    "transparency_bundle_present": true,
+    "proof_receipt_present": true,
+    "independent_recompute_present": true,
+    "release_artifact_verifier_present": true,
+    "overclaim_release_gate_present": true
+  },
+  "scope_boundary": "public-evaluation provenance statement only; not a production attestation or certification"
+}

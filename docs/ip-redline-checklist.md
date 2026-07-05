@@ -34,7 +34,7 @@ This checklist is designed to keep the public package at the architecture-thesis
 
 Do not claim:
 
-- "first ever in the world" without formal prior-art/trademark/legal review.
+- unsupported absolute priority claims without formal prior-art/trademark/legal review.
 - "patent priority" from Zenodo/GitHub publication alone.
 - "formal standard" unless there is an actual standards-body process.
 - "compliance certified" unless a certification exists.

@@ -1,0 +1,15 @@
+{
+  "adapter": "envoy-ext_authz-shape",
+  "status": "shape-only public evaluation sketch",
+  "accept_mapping": {
+    "ACCEPT": {"grpc_status": "OK", "http_status": 200},
+    "HOLD": {"grpc_status": "PERMISSION_DENIED", "http_status": 423},
+    "REFUSE": {"grpc_status": "PERMISSION_DENIED", "http_status": 403}
+  },
+  "headers": [
+    "x-acceptance-plane-decision",
+    "x-acceptance-plane-reason-code",
+    "x-acceptance-plane-receipt-digest"
+  ],
+  "scope_boundary": "illustrative adapter shape, not a product implementation"
+}

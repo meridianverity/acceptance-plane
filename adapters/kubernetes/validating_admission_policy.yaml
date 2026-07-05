@@ -1,0 +1,23 @@
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicy
+metadata:
+  name: acceptance-plane-shape-only
+spec:
+  failurePolicy: Fail
+  matchConstraints:
+    resourceRules:
+      - apiGroups: ["apps"]
+        apiVersions: ["v1"]
+        operations: ["CREATE", "UPDATE"]
+        resources: ["deployments"]
+  validations:
+    - expression: "has(object.metadata.annotations['acceptance-plane.mvg.example/receipt-digest'])"
+      message: "Acceptance Plane receipt digest annotation is required for this public-eval shape."
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicyBinding
+metadata:
+  name: acceptance-plane-shape-only-binding
+spec:
+  policyName: acceptance-plane-shape-only
+  validationActions: [Deny]
